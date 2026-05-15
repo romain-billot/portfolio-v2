@@ -1,0 +1,345 @@
+{
+	"basics": {
+		"name": "Romain Billot",
+		"label": "Développeur Full Stack",
+		"image": "/me_avatar.png",
+		"email": "romain@billot.xyz",
+		"phone": null,
+		"url": "romain.billot.xyz",
+		"summary": "Après 12 ans en conception mécanique, je me suis reconverti via une formation dont je suis sorti major de promo. J'avais découvert la programmation des années plus tôt en automatisant la modélisation 3D de pièces en VBA. Curieux, attaché à la qualité du code, j'intègre l'IA à mon flux de travail : je brainstorme et délègue avec elle, parfois je vibecode, mais je garde toujours les commandes.",
+		"description": "Développeur animé par l'exploration des dernières technologies et les applications web.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Longueuil",
+			"countryCode": "CA",
+			"region": "Remote"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": null,
+				"url": "https://www.linkedin.com/in/romain-billot-54b515302/"
+			},
+			{
+				"network": "GitHub",
+				"username": "romain-billot",
+				"url": "https://github.com/romain-billot"
+			}
+		]
+	},
+	"highlights": [
+		{
+			"title": "Distinction académique",
+			"detail": "Prix d'excellence scolaire \nAEC Programmation d'applications."
+		},
+		{
+			"title": "Application client en prod",
+			"detail": "Première application développée dès la fin de ma formation : gestion des inscriptions, contrats et paiements pour plus de 100 participants à chaque festival."
+		}
+	],
+	"volunteer": null,
+	"education": [
+		{
+			"institution": "Cégep de Sherbrooke",
+			"url": "https://cegepsherbrooke.qc.ca/formations/aec/programmation-dapplications/",
+			"area": "Programmation d'applications",
+			"studyType": "AEC",
+			"startDate": "2023-09",
+			"endDate": "2025-03",
+			"courses": [
+				"Développement d'applications Web et natives",
+				"Conception et développement de bases de données SQL",
+				"Programmation orientée objet"
+			],
+			"honors": "Prix d'excellence scolaire"
+		},
+		{
+			"institution": "IUT de Nantes (France)",
+			"url": "https://iutnantes.univ-nantes.fr/formations/bachelor-iut-bac3/but-gmp",
+			"area": "Génie Mécanique et Productique",
+			"studyType": "Bachelor universitaire de technologie",
+			"startDate": "2008-09",
+			"endDate": "2011-06",
+			"courses": [
+				"Conception de produits",
+				"Développement des procédés de fabrication",
+				"Organisation des lignes de production"
+			],
+			"honors": null,
+			"dim": true
+		}
+	],
+	"continuing-education": [
+		{
+			"institution": "Cégep Ahuntsic",
+			"url": "https://www.collegeahuntsic.qc.ca/formation-continue/perfectionnement-professionnel/techniques-et-outils-modernes-pour-le-developpement-web-react",
+			"area": "Techniques et outils modernes pour le développement Web - React et Next.js",
+			"startDate": "2025-03",
+			"endDate": "2025-03"
+		}
+	],
+	"skills": [
+		{
+			"name": "HTML",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend"]
+		},
+		{
+			"name": "CSS",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend", "Responsive Design"]
+		},
+		{
+			"name": "JavaScript",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+		},
+		{
+			"name": "Vue.js",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "React",
+			"level": "Beginner",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+		},
+		{
+			"name": "Php",
+			"level": "Intermediate",
+			"category": "Backend",
+			"keywords": ["Web Development", "Backend", "Server"]
+		},
+		{
+			"name": "Laravel",
+			"level": "Intermediate",
+			"category": "Backend",
+			"keywords": ["Web Development", "Backend", "PHP", "Server"]
+		},
+		{
+			"name": "Express.js",
+			"level": "Intermediate",
+			"category": "Backend",
+			"keywords": ["Web Development", "Backend", "Node", "Server"]
+		},
+		{
+			"name": "PostgreSQL",
+			"level": "Intermediate",
+			"category": "Données + DevOps",
+			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+		},
+		{
+			"name": "Docker",
+			"level": "Beginner",
+			"category": "Données + DevOps",
+			"keywords": ["Containerization", "DevOps", "Deployment", "Virtualization"]
+		},
+		{
+			"name": "Git",
+			"level": "Intermediate",
+			"category": "Données + DevOps",
+			"keywords": ["Version Control", "Collaboration", "Source Code"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Intermediate",
+			"category": "Données + DevOps",
+			"keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+		},
+		{
+			"name": "N8N",
+			"level": "Intermediate",
+			"category": "Données + DevOps",
+			"keywords": ["Automation", "Workflow", "Integration", "No-code"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Français",
+			"fluency": "Langue maternelle"
+		},
+		{
+			"language": "Anglais",
+			"fluency": "Intermédiaire"
+		}
+	],
+	"interests": [
+		{
+			"name": "Technologies",
+			"keywords": ["Self-hosting", "Programmation"]
+		}
+	],
+	"references": [],
+	"projects": [
+		{
+			"name": "Application FJM",
+			"isActive": true,
+			"year": "2025",
+			"kind": "Application web",
+			"description": "Gestionnaire de marchés pour le Festival Jouissif Montréal — inscriptions, paiements, signature électronique.",
+			"context": "Application web pour la gestion des marchés du festival d'art de Montréal. Inscriptions des artistes, gestion des paiements et contrats signés en ligne.",
+			"challenges": "Mise en place de la signature électronique conforme. Automatisation complète du flux d'inscription. Intégration Stripe avec gestion fine des frais et des reçus.",
+			"learnings": "Collaboration avec un client non-technique : traduction des besoins métier en architecture. Maîtrise approfondie de la stack Laravel + Inertia. Tests automatisés sur les parcours critiques.",
+			"highlights": [
+				"Gestion des événements",
+				"Administration des exposants inscrits",
+				"Formulaire de demande de participation",
+				"Traitement et suivi des demandes de participation",
+				"Création de contrats avec signature électronique",
+				"Gestion des factures et paiements via Stripe",
+				"Notifications par courriel"
+			],
+			"skills": [
+				"Vue.js",
+				"Laravel",
+				"Inertia.js",
+				"Tailwind CSS",
+				"PostgreSQL",
+				"API Stripe",
+				"Docker"
+			],
+			"url": null,
+			"github": null,
+			"sample": "/samples/festivalj.gif"
+		},
+		{
+			"name": "PlanTogether",
+			"isActive": true,
+			"year": "2025",
+			"kind": "Projet de fin d'études",
+			"description": "Planificateur familial — calendrier partagé, gestion des tâches du quotidien et liste de courses synchronisée.",
+			"context": "Planificateur destiné aux familles. Calendrier partagé, gestion des tâches du quotidien et liste de courses synchronisée entre les membres du foyer.",
+			"challenges": "Synchronisation entre comptes liés. Conception d'une UI claire pour utilisateurs non-techniques. Modélisation de données pour entités partagées avec gestion des permissions.",
+			"learnings": "Construction d'une stack Vue + Express de A à Z. Choix d'une UI lib (PrimeVue) et adaptation au design system. Pilotage d'un projet long format en autonomie.",
+			"highlights": ["Calendrier partagé", "Listes de tâches", "Listes de courses"],
+			"skills": ["Vue.js", "Express.js", "Tailwind CSS", "PrimeVue", "PostgreSQL"],
+			"url": "https://plantogether.vercel.app/",
+			"github": "https://github.com/romain-billot/planTogether-web",
+			"sample": "/samples/planTogether.png"
+		}
+	],
+	"work": [
+		{
+			"name": "Fastercom",
+			"position": "Développeur Intégrateur de Solutions",
+			"location_type": "Hybride",
+			"location": "Montréal",
+			"url": "https://www.fastercom.app/fr-fr",
+			"startDate": "2025-08",
+			"endDate": null,
+			"summary": "Déploiement, configuration et développement de solutions logicielles TMS (Transport Management System) pour optimiser le transport routier des clients.",
+			"responsibilities": [
+				"Déploiement et configuration de solutions TMS.",
+				"Développement de fonctionnalités pour optimiser le transport routier des clients.",
+				"Amélioration des performances et de la robustesse des solutions existantes.",
+				"Participation à l'architecture des systèmes avec les équipes projet."
+			],
+			"achievements": null,
+			"skills": ["JavaScript", "PostgreSQL", "N8N"]
+		},
+		{
+			"name": "Festival Jouissif Montréal",
+			"position": "Développeur Full-stack (mission)",
+			"location_type": "Télétravail",
+			"location": "Québec",
+			"url": "https://festivaljouissif.ca/",
+			"startDate": "2025-04",
+			"endDate": "2025-08",
+			"summary": "Développement d'une application web pour gérer les marchés d'un festival d'art à Montréal. Voir projet ↑",
+			"responsibilities": [
+				"Création d'une plateforme web sur mesure pour simplifier la gestion d'événements et d'exposants.",
+				"Implémentation de formulaires d'inscription, gestion des candidatures, attribution des emplacements et communication automatisée.",
+				"Création de contrats avec signature électronique.",
+				"Intégration du paiement via Stripe, incluant la facturation et la validation des inscriptions.",
+				"Administration des contenus liés aux événements via une interface dédiée."
+			],
+			"achievements": [
+				"Collaboration étroite avec l'organisateur du festival pour adapter l'outil aux besoins.",
+				"Automatisation complète du processus d'inscription des exposants (gain de temps significatif pour l'organisateur).",
+				"Tests automatisés pour assurer la fiabilité du code et la qualité des fonctionnalités.",
+				"Déploiement de l'application sur un hébergeur."
+			],
+			"skills": [
+				"Laravel",
+				"Vue.js",
+				"Inertia.js",
+				"Tailwind CSS",
+				"API Stripe",
+				"PostgreSQL",
+				"Docker"
+			]
+		},
+		{
+			"name": "Nicoya",
+			"position": "Développeur Full-stack (stage)",
+			"location_type": "Télétravail",
+			"location": "Québec",
+			"url": "https://nicoyacoop.com/",
+			"startDate": "2025-01",
+			"endDate": "2025-03",
+			"summary": "Développement et intégration de fonctionnalités pour une plateforme de prise de rendez-vous en ligne pour des professionnels de la santé, incluant gestion des dossiers clients, paiement en ligne, et messagerie intégrée.",
+			"highlights": null,
+			"responsibilities": [
+				"Implémenter un système de filtrage avancé pour permettre aux utilisateurs de trouver des professionnels adaptés à leurs besoins.",
+				"Afficher la page de profil des professionnels avec des informations détaillées et des avis clients.",
+				"Développer des fonctionnalités pour gérer la prise de rendez-vous en ligne avec des professionnels.",
+				"Configurer l'intégration de Stripe pour les paiements en ligne sécurisés, incluant la gestion des commissions."
+			],
+			"achievements": [
+				"Reprise et refonte du code existant pour améliorer la maintenabilité et la flexibilité.",
+				"Implémentation de tests automatisés et d'un pipeline d'intégration continue pour assurer la fiabilité du code.",
+				"Collaboration efficace avec l'équipe, y compris à distance, pour assurer une bonne coordination des tâches."
+			],
+			"skills": ["Laravel", "GitHub", "API Stripe"]
+		},
+		{
+			"name": "BRP",
+			"position": "Concepteur mécanique",
+			"location_type": "Hybride",
+			"location": "Sherbrooke, Québec",
+			"url": "https://can-am.brp.com/off-road/ca/fr/",
+			"startDate": "2015-11",
+			"endDate": "2023-08",
+			"summary": "Conception, développement et validation de systèmes mécaniques de véhicules récréatifs.",
+			"highlights": null,
+			"responsibilities": [
+				"Réaliser la modélisation complète des pièces et dessins techniques lors du développement de véhicules de la phase prototype jusqu'à la mise en production.",
+				"Supporter l'atelier pour l'assemblage, le diagnostic et la validation des véhicules prototypes.",
+				"Collaborer avec les concepteurs et ingénieurs à la conception et la réalisation de nouvelles pièces, de nouveaux systèmes et de nouveaux véhicules.",
+				"Collaborer avec les fournisseurs et les équipes du design, de la production, des achats et de l'assurance qualité."
+			],
+			"achievements": [
+				"Développement de nouveaux véhicules lancés avec succès sur le marché, répondant aux exigences de qualité et de performance.",
+				"Développement d'outils d'automatisation pour la modélisation et la conception mécanique."
+			],
+			"dim": true
+		},
+		{
+			"name": "Plast Concept",
+			"position": "Dessinateur mécanique",
+			"location_type": "Sur site",
+			"location": "France",
+			"url": null,
+			"startDate": "2011-09",
+			"endDate": "2015-08",
+			"summary": "Conception et modélisation de pièces plastiques pour l'industrie automobile.",
+			"highlights": null,
+			"responsibilities": null,
+			"achievements": null,
+			"skills": ["CAO", "Analyse de faisabilité"],
+			"dim": true
+		}
+	]
+}
