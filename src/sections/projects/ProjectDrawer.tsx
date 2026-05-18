@@ -1,6 +1,7 @@
 import type {Project} from "../../lib/types";
 import {Tag} from "../../ui/Tag";
 import {ProjectDrawerCols} from "./ProjectDrawerCols";
+import {ProjectMedia} from "./ProjectMedia";
 
 type Props = {
 	project: Project | null;
@@ -35,9 +36,14 @@ export function ProjectDrawer({project, onClose}: Props) {
 				{project && (
 					<>
 						<div className="mb-9 text-xs uppercase tracking-[0.16em] text-muted">{meta}</div>
-						<h3 className="mb-2 text-5xl font-semibold leading-tight tracking-tight max-md:text-4xl">
+						<h3 className="mb-6 text-5xl font-semibold leading-tight tracking-tight max-md:text-4xl">
 							{project.name}
 						</h3>
+						{project.sample && (
+							<div className="mb-7 overflow-hidden rounded-2xl border border-border">
+								<ProjectMedia project={project}/>
+							</div>
+						)}
 						<ProjectDrawerCols project={project}/>
 						{project.skills && project.skills.length > 0 && (
 							<div className="mt-7 border-t border-border pt-7">

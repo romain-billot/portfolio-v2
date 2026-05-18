@@ -219,6 +219,7 @@
 			"url": null,
 			"github": null,
 			"sample": "/samples/festivalj.mp4",
+			"sampleType": "file",
 			"sampleBackground": "#ffffff",
 			"hosting": ["Hostinger"]
 		},
@@ -236,11 +237,12 @@
 			"url": "https://plantogether.vercel.app/",
 			"github": "https://github.com/romain-billot/planTogether-web",
 			"sample": "/samples/planTogether.png",
+			"sampleType": "file",
 			"sampleBackground": "#ffffff",
 			"hosting": ["Vercel"]
 		},
 		{
-			"name": "GitSummarize",
+			"name": "GitDiffSummarize",
 			"isActive": true,
 			"year": "2024",
 			"kind": "Projet personnel",
@@ -253,6 +255,7 @@
 			"url": "https://gitdiffsummarize.vercel.app/",
 			"github": "https://github.com/romain-billot/gitDiffSummarize",
 			"sample": "/samples/gitDiffSummarize.gif",
+			"sampleType": "file",
 			"sampleBackground": "#020617",
 			"hosting": ["Vercel"]
 		}
