@@ -37,16 +37,11 @@ export function ProjectCard({project, index, onOpen}: Props) {
 						{project.description}
 					</p>
 					{project.skills && project.skills.length > 0 && (
-						<div className="flex min-h-18 flex-wrap content-start gap-1.5">
+						<div className="flex flex-wrap content-start gap-1.5">
 							{project.skills.map((s) => (
 								<Tag key={s}>{s}</Tag>
 							))}
 						</div>
-					)}
-					{project.hosting && project.hosting.length > 0 && (
-						<p className="mt-5 text-xs text-muted">
-							Hébergé sur {project.hosting.join(" · ")}
-						</p>
 					)}
 				</div>
 			</div>
