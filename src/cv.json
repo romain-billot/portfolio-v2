@@ -84,91 +84,161 @@
 			"name": "HTML",
 			"level": "Intermediate",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend"]
+			"keywords": [
+				"Web Development",
+				"Frontend"
+			]
 		},
 		{
 			"name": "CSS",
 			"level": "Intermediate",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend", "Responsive Design"]
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"Responsive Design"
+			]
 		},
 		{
 			"name": "JavaScript",
 			"level": "Intermediate",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"Backend",
+				"Fullstack"
+			]
 		},
 		{
 			"name": "Vue.js",
 			"level": "Intermediate",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"JavaScript Library",
+				"UI"
+			]
 		},
 		{
 			"name": "React",
 			"level": "Beginner",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"JavaScript Library",
+				"UI"
+			]
 		},
 		{
 			"name": "Tailwind",
 			"level": "Intermediate",
 			"category": "Frontend",
-			"keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"CSS Framework",
+				"Responsive Design"
+			]
 		},
 		{
 			"name": "Php",
 			"level": "Intermediate",
 			"category": "Backend",
-			"keywords": ["Web Development", "Backend", "Server"]
+			"keywords": [
+				"Web Development",
+				"Backend",
+				"Server"
+			]
 		},
 		{
 			"name": "Laravel",
 			"level": "Intermediate",
 			"category": "Backend",
-			"keywords": ["Web Development", "Backend", "PHP", "Server"]
+			"keywords": [
+				"Web Development",
+				"Backend",
+				"PHP",
+				"Server"
+			]
 		},
 		{
 			"name": "Express.js",
 			"level": "Intermediate",
 			"category": "Backend",
-			"keywords": ["Web Development", "Backend", "Node", "Server"]
+			"keywords": [
+				"Web Development",
+				"Backend",
+				"Node",
+				"Server"
+			]
 		},
 		{
 			"name": "PostgreSQL",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
-			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+			"keywords": [
+				"Databases",
+				"SQL",
+				"Data Storage",
+				"Backend"
+			]
 		},
 		{
 			"name": "Docker",
 			"level": "Beginner",
 			"category": "Données + DevOps",
-			"keywords": ["Containerization", "DevOps", "Deployment", "Virtualization"]
+			"keywords": [
+				"Containerization",
+				"DevOps",
+				"Deployment",
+				"Virtualization"
+			]
 		},
 		{
-			"name":"Coolify",
+			"name": "Coolify",
 			"level": "Beginner",
 			"category": "Données + DevOps",
-			"keywords": ["PaaS", "Deployment", "DevOps", "Web Applications"]
+			"keywords": [
+				"PaaS",
+				"Deployment",
+				"DevOps",
+				"Web Applications"
+			]
 		},
 		{
 			"name": "Git",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
-			"keywords": ["Version Control", "Collaboration", "Source Code"]
+			"keywords": [
+				"Version Control",
+				"Collaboration",
+				"Source Code"
+			]
 		},
 		{
 			"name": "GitHub",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
-			"keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+			"keywords": [
+				"Version Control",
+				"Collaboration",
+				"Source Code",
+				"Git"
+			]
 		},
 		{
 			"name": "N8N",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
-			"keywords": ["Automation", "Workflow", "Integration", "No-code"]
+			"keywords": [
+				"Automation",
+				"Workflow",
+				"Integration",
+				"No-code"
+			]
 		}
 	],
 	"languages": [
@@ -184,7 +254,10 @@
 	"interests": [
 		{
 			"name": "Technologies",
-			"keywords": ["Self-hosting", "Programmation"]
+			"keywords": [
+				"Self-hosting",
+				"Programmation"
+			]
 		}
 	],
 	"references": [],
@@ -221,7 +294,41 @@
 			"sample": "/samples/boardmatch.mp4",
 			"sampleType": "file",
 			"sampleBackground": "#f9fafb",
-			"hosting": ["Synology NAS"]
+			"hosting": [
+				"Synology NAS"
+			]
+		},
+		{
+			"name": "Portfolio",
+			"isActive": true,
+			"year": "2025",
+			"kind": "Projet personnel",
+			"description": "Portfolio développeur — design system maison, animations fluides, données centralisées en JSON.",
+			"context": "Conception et développement de mon portfolio personnel, vitrine de mes projets et compétences. L'objectif : un site rapide, accessible et visuellement soigné, sans dépendances inutiles.",
+			"challenges": "Construire un design system cohérent from scratch avec Tailwind 4 sans UI library. Animer des éléments complexes (curseur personnalisé, transitions de page, highlights) de façon fluide et non-invasive. Centraliser toutes les données dans un seul fichier JSON pour simplifier les mises à jour.",
+			"learnings": "Maîtrise avancée de Tailwind CSS 4 et ses nouvelles primitives. Conception d'animations CSS performantes. Architecture front simple et maintenable sans framework de state management.",
+			"highlights": [
+				"Design system maison sans UI library",
+				"Curseur personnalisé animé",
+				"Drawer projets avec media (vidéo / gif)",
+				"Données centralisées en JSON (CV)",
+				"Animations CSS fluides",
+				"Responsive mobile-first"
+			],
+			"skills": [
+				"React 19",
+				"TypeScript",
+				"Vite",
+				"Tailwind CSS 4"
+			],
+			"url": "https://romain.billot.xyz",
+			"github": null,
+			"sample": null,
+			"sampleType": null,
+			"sampleBackground": null,
+			"hosting": [
+				"Vercel"
+			]
 		},
 		{
 			"name": "Application FJM",
@@ -255,7 +362,9 @@
 			"sample": "/samples/festivalj.mp4",
 			"sampleType": "file",
 			"sampleBackground": "#ffffff",
-			"hosting": ["Hostinger"]
+			"hosting": [
+				"Hostinger"
+			]
 		},
 		{
 			"name": "PlanTogether",
@@ -266,14 +375,26 @@
 			"context": "Planificateur destiné aux familles. Calendrier partagé, gestion des tâches du quotidien et liste de courses synchronisée entre les membres du foyer.",
 			"challenges": "Synchronisation entre comptes liés. Conception d'une UI claire pour utilisateurs non-techniques. Modélisation de données pour entités partagées avec gestion des permissions.",
 			"learnings": "Construction d'une stack Vue + Express de A à Z. Choix d'une UI lib (PrimeVue) et adaptation au design system. Pilotage d'un projet long format en autonomie.",
-			"highlights": ["Calendrier partagé", "Listes de tâches", "Listes de courses"],
-			"skills": ["Vue.js", "Express.js", "Tailwind CSS", "PrimeVue", "PostgreSQL"],
+			"highlights": [
+				"Calendrier partagé",
+				"Listes de tâches",
+				"Listes de courses"
+			],
+			"skills": [
+				"Vue.js",
+				"Express.js",
+				"Tailwind CSS",
+				"PrimeVue",
+				"PostgreSQL"
+			],
 			"url": "https://plantogether.vercel.app/",
 			"github": "https://github.com/romain-billot/planTogether-web",
 			"sample": "/samples/planTogether.png",
 			"sampleType": "file",
 			"sampleBackground": "#ffffff",
-			"hosting": ["Vercel"]
+			"hosting": [
+				"Vercel"
+			]
 		},
 		{
 			"name": "GitDiffSummarize",
@@ -284,14 +405,25 @@
 			"context": "Projet d'apprentissage créé pendant mes études pour m'initier à React et Next.js. À l'époque, les IDE ne proposaient pas encore ce type de fonctionnalité — c'était une vraie niche. Connecté à l'API OpenAI pour analyser un diff et générer des messages de commit clairs et pertinents.",
 			"challenges": "Première application React/Next.js — apprendre les patterns (hooks, state, routing) from scratch sans filet. Construire un prompt qui produise des messages de commit cohérents et exploitables.",
 			"learnings": "Fondamentaux React et Next.js. Intégration d'une API IA dans une app web. Prompt engineering : formuler une instruction précise pour obtenir un résultat structuré et utile.",
-			"highlights": ["Génération de message de commit", "Résumé du diff en langage naturel", "Interface web"],
-			"skills": ["Next.js", "React", "Tailwind CSS", "OpenAI API"],
+			"highlights": [
+				"Génération de message de commit",
+				"Résumé du diff en langage naturel",
+				"Interface web"
+			],
+			"skills": [
+				"Next.js",
+				"React",
+				"Tailwind CSS",
+				"OpenAI API"
+			],
 			"url": "https://gitdiffsummarize.vercel.app/",
 			"github": "https://github.com/romain-billot/gitDiffSummarize",
 			"sample": "/samples/gitDiffSummarize.gif",
 			"sampleType": "file",
 			"sampleBackground": "#020617",
-			"hosting": ["Vercel"]
+			"hosting": [
+				"Vercel"
+			]
 		}
 	],
 	"work": [
@@ -311,7 +443,12 @@
 				"Participation à l'architecture des systèmes avec les équipes projet."
 			],
 			"achievements": null,
-			"skills": ["JavaScript", "PostgreSQL", "N8N", "GitLab"]
+			"skills": [
+				"JavaScript",
+				"PostgreSQL",
+				"N8N",
+				"GitLab"
+			]
 		},
 		{
 			"name": "Festival Jouissif Montréal",
@@ -366,7 +503,11 @@
 				"Implémentation de tests automatisés et d'un pipeline d'intégration continue pour assurer la fiabilité du code.",
 				"Collaboration efficace avec l'équipe, y compris à distance, pour assurer une bonne coordination des tâches."
 			],
-			"skills": ["Laravel", "GitHub", "API Stripe"]
+			"skills": [
+				"Laravel",
+				"GitHub",
+				"API Stripe"
+			]
 		},
 		{
 			"name": "BRP",
@@ -402,7 +543,10 @@
 			"highlights": null,
 			"responsibilities": null,
 			"achievements": null,
-			"skills": ["CAO", "Analyse de faisabilité"],
+			"skills": [
+				"CAO",
+				"Analyse de faisabilité"
+			],
 			"dim": true
 		}
 	]
