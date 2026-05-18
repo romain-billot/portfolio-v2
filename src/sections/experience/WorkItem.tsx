@@ -2,6 +2,7 @@ import {useState} from "react";
 import type {Work} from "../../lib/types";
 import {formatDateRange} from "../../lib/format";
 import {Tag} from "../../ui/Tag";
+import {CircleButton} from "../../ui/CircleButton";
 import {RevealOnScroll} from "../../ui/RevealOnScroll";
 
 type Props = { work: Work; index: number };
@@ -18,8 +19,7 @@ export function WorkItem({work, index}: Props) {
 				(dim ? " opacity-35 hover:opacity-60" : "")
 			}
 		>
-			<button
-				type="button"
+			<div
 				onClick={() => setOpen((o) => !o)}
 				data-cursor="hover"
 				className="contents text-left"
@@ -40,15 +40,7 @@ export function WorkItem({work, index}: Props) {
 								{work.location ? ` · ${work.location}` : ""}
 							</div>
 						</div>
-						<span
-							aria-hidden="true"
-							className={
-								"flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full border border-border text-base leading-none transition-[transform,border-color,color] duration-400" +
-								(open ? " rotate-45 border-accent text-accent" : "")
-							}
-						>
-              +
-            </span>
+						<CircleButton variant="toggle" active={open}/>
 					</div>
 					<div
 						className={
@@ -75,7 +67,7 @@ export function WorkItem({work, index}: Props) {
 						</div>
 					</div>
 				</div>
-			</button>
+			</div>
 		</RevealOnScroll>
 	);
 }

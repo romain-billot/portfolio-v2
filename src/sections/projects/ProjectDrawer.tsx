@@ -1,5 +1,6 @@
 import type {Project} from "../../lib/types";
 import {Tag} from "../../ui/Tag";
+import {CircleButton} from "../../ui/CircleButton";
 import {ProjectDrawerCols} from "./ProjectDrawerCols";
 import {ProjectMedia} from "./ProjectMedia";
 
@@ -25,14 +26,9 @@ export function ProjectDrawer({project, onClose}: Props) {
 				className={"drawer" + (open ? " open" : "")}
 				aria-hidden={!open}
 			>
-				<button
-					onClick={onClose}
-					aria-label="fermer"
-					data-cursor="hover"
-					className="absolute top-6 right-6 flex h-9 w-9 items-center justify-center rounded-full border border-border bg-transparent text-lg text-text transition-colors hover:border-accent hover:text-accent"
-				>
-					×
-				</button>
+				<div className="absolute top-6 right-6">
+					<CircleButton onClick={onClose} variant="close"/>
+				</div>
 				{project && (
 					<>
 						<div className="mb-9 text-xs uppercase tracking-[0.16em] text-muted">{meta}</div>
