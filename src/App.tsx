@@ -10,6 +10,7 @@ import {Projects} from "./sections/projects/Projects";
 import {Experience} from "./sections/experience/Experience";
 import {Education} from "./sections/education/Education";
 import {ContinuingEducation} from "./sections/education/ContinuingEducation";
+import {Contact} from "./sections/contact/Contact";
 import {Footer} from "./sections/footer/Footer";
 import {ProjectDrawer} from "./sections/projects/ProjectDrawer";
 
@@ -32,6 +33,7 @@ export default function Portfolio() {
 			<Experience/>
 			<Education/>
 			<ContinuingEducation/>
+			<Contact/>
 			<Footer/>
 			<ProjectDrawer
 				project={selected}

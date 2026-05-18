@@ -15,7 +15,7 @@ export function WorkItem({work, index}: Props) {
 		<RevealOnScroll
 			index={index}
 			className={
-				"group/xp grid grid-cols-[200px_1fr] items-start gap-8 border-b border-border py-[30px] transition-opacity max-md:grid-cols-1 max-md:gap-2 max-md:py-6" +
+				"group/xp grid grid-cols-[200px_1fr] items-start gap-8 border-b border-border pt-4 pb-[30px] transition-opacity max-md:grid-cols-1 max-md:gap-2 max-md:pt-3 max-md:pb-6" +
 				(dim ? " opacity-35 hover:opacity-100" + (open ? " opacity-100" : "") : "")
 			}
 		>

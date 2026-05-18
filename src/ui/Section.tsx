@@ -9,13 +9,13 @@ type Props = {
 	className?: string;
 };
 
-export function Section({id, index, title, children, className = ""}: Props) {
+export function Section({id, title, children, className = ""}: Props) {
 	return (
 		<section
 			id={id}
 			className={`relative mx-auto max-w-7xl px-8 pt-18 pb-10 max-md:px-6 max-md:pt-13 max-md:pb-8 ${className}`}
 		>
-			{index && title ? <SectionLabel index={index} title={title}/> : null}
+			{title ? <SectionLabel title={title}/> : null}
 			{children}
 		</section>
 	);
