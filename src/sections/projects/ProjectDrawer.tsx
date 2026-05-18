@@ -26,12 +26,12 @@ export function ProjectDrawer({project, onClose}: Props) {
 				className={"drawer" + (open ? " open" : "")}
 				aria-hidden={!open}
 			>
-				<div className="absolute top-6 right-6">
-					<CircleButton onClick={onClose} variant="close"/>
-				</div>
-				{project && (
+				 Context{project && (
 					<>
-						<div className="mb-9 text-xs uppercase tracking-[0.16em] text-muted">{meta}</div>
+						<div className="mb-9 flex items-center justify-between">
+							<span className="text-xs uppercase tracking-[0.16em] text-muted">{meta}</span>
+							<CircleButton onClick={onClose} variant="close"/>
+						</div>
 						<h3 className="mb-6 text-5xl font-semibold leading-tight tracking-tight max-md:text-4xl">
 							{project.name}
 						</h3>
@@ -92,6 +92,7 @@ export function ProjectDrawer({project, onClose}: Props) {
 					</>
 				)}
 			</aside>
+
 		</>
 	);
 }

@@ -15,7 +15,7 @@ export function ProjectDrawerCols({project}: { project: Project }) {
 		<div className="my-8 grid grid-cols-3 gap-5 border-t border-border pt-7 max-md:grid-cols-1 max-md:gap-6">
 			{cols.map((c) => (
 				<div key={c.title}>
-					<h5 className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-accent">
+					<h5 className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-muted">
 						{c.title}
 					</h5>
 					<p className="text-sm leading-[1.65] text-text">{c.body}</p>
