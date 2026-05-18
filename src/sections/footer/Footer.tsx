@@ -17,10 +17,8 @@ export function Footer() {
 				</p>
 				<FooterLinks/>
 			</div>
-			<div
-				className="mt-20 flex justify-between text-xs uppercase tracking-[0.14em] text-muted max-md:mt-13 max-md:flex-col max-md:gap-2">
-				<span>© 2026 {cv.basics.name}</span>
-				<span>Montréal · 45.5° N — 73.5° O</span>
+			<div className="mt-20 flex justify-center text-xs uppercase tracking-[0.14em] text-muted max-md:mt-13 max-md:flex-col max-md:gap-2">
+				<span>© {new Date().getFullYear()} {cv.basics.name}</span>
 			</div>
 		</footer>
 	);

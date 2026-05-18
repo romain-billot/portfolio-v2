@@ -14,7 +14,6 @@ export function Projects({onOpen}: Props) {
 						key={p.name}
 						project={p}
 						index={i}
-						total={projects.length}
 						onOpen={() => onOpen(i)}
 					/>
 				))}

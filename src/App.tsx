@@ -35,8 +35,6 @@ export default function Portfolio() {
 			<Footer/>
 			<ProjectDrawer
 				project={selected}
-				index={drawerIndex}
-				total={projects.length}
 				onClose={close}
 			/>
 		</>

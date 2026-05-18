@@ -1,3 +1,4 @@
+// @ts-ignore
 import cvJson from "@/cv.json";
 import type {CV, Project, Skill, Work} from "./types";
 
@@ -25,17 +26,6 @@ export function groupSkillsByCategory(): { category: SkillCategory; skills: Skil
 		const dim = skills.length > 0 && skills.every((s) => s.dim);
 		return {category, skills, dim};
 	}).filter((group) => group.skills.length > 0);
-}
-
-export function getFanSkills(count = 7): Skill[] {
-	const order: SkillCategory[] = ["Frontend", "Backend", "Données + DevOps", "Fullstack"];
-	const ranked: Skill[] = [];
-	for (const cat of order) {
-		for (const s of cv.skills) {
-			if ((s.category ?? s.keywords[0]) === cat && !s.dim) ranked.push(s);
-		}
-	}
-	return ranked.slice(0, count);
 }
 
 export function sortWorkByDate(): Work[] {

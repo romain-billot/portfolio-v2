@@ -13,7 +13,7 @@ export function SkillColumn({title, skills, dim = false}: Props) {
 					<li
 						key={s}
 						className={
-							"py-[9px] text-sm tracking-tight text-text" +
+							"py-2.25 text-sm tracking-tight text-text" +
 							(i < skills.length - 1 ? " border-b border-border/60" : "")
 						}
 					>

@@ -31,11 +31,11 @@
 	"highlights": [
 		{
 			"title": "Distinction académique",
-			"detail": "Prix d'excellence scolaire \nAEC Programmation d'applications."
+			"detail": "Prix d'excellence scolaire \nAEC Programmation d'applications"
 		},
 		{
 			"title": "Application client en prod",
-			"detail": "Première application développée dès la fin de ma formation : gestion des inscriptions, contrats et paiements pour plus de 100 participants à chaque festival."
+			"detail": "Première application développée dès la fin de ma formation : gestion des inscriptions, contrats et paiements pour plus de 100 participants à chaque festival"
 		}
 	],
 	"volunteer": null,
@@ -147,6 +147,12 @@
 			"keywords": ["Containerization", "DevOps", "Deployment", "Virtualization"]
 		},
 		{
+			"name":"Coolify",
+			"level": "Beginner",
+			"category": "Données + DevOps",
+			"keywords": ["PaaS", "Deployment", "DevOps", "Web Applications"]
+		},
+		{
 			"name": "Git",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
@@ -208,11 +214,13 @@
 				"Tailwind CSS",
 				"PostgreSQL",
 				"API Stripe",
-				"Docker"
+				"Coolify"
 			],
 			"url": null,
 			"github": null,
-			"sample": "/samples/festivalj.gif"
+			"sample": "/samples/festivalj.mp4",
+			"sampleBackground": "#ffffff",
+			"hosting": ["Hostinger"]
 		},
 		{
 			"name": "PlanTogether",
@@ -227,7 +235,26 @@
 			"skills": ["Vue.js", "Express.js", "Tailwind CSS", "PrimeVue", "PostgreSQL"],
 			"url": "https://plantogether.vercel.app/",
 			"github": "https://github.com/romain-billot/planTogether-web",
-			"sample": "/samples/planTogether.png"
+			"sample": "/samples/planTogether.png",
+			"sampleBackground": "#ffffff",
+			"hosting": ["Vercel"]
+		},
+		{
+			"name": "GitSummarize",
+			"isActive": true,
+			"year": "2024",
+			"kind": "Projet personnel",
+			"description": "Outil web de génération de messages de commit à partir d'un git diff, via l'API OpenAI.",
+			"context": "Projet d'apprentissage créé pendant mes études pour m'initier à React et Next.js. À l'époque, les IDE ne proposaient pas encore ce type de fonctionnalité — c'était une vraie niche. Connecté à l'API OpenAI pour analyser un diff et générer des messages de commit clairs et pertinents.",
+			"challenges": "Première application React/Next.js — apprendre les patterns (hooks, state, routing) from scratch sans filet. Construire un prompt qui produise des messages de commit cohérents et exploitables.",
+			"learnings": "Fondamentaux React et Next.js. Intégration d'une API IA dans une app web. Prompt engineering : formuler une instruction précise pour obtenir un résultat structuré et utile.",
+			"highlights": ["Génération de message de commit", "Résumé du diff en langage naturel", "Interface web"],
+			"skills": ["Next.js", "React", "Tailwind CSS", "OpenAI API"],
+			"url": "https://gitdiffsummarize.vercel.app/",
+			"github": "https://github.com/romain-billot/gitDiffSummarize",
+			"sample": "/samples/gitDiffSummarize.gif",
+			"sampleBackground": "#020617",
+			"hosting": ["Vercel"]
 		}
 	],
 	"work": [

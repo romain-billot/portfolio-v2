@@ -1,6 +1,6 @@
 import type {Project} from "../../lib/types";
 
-type Props = { project: Project; counter: string };
+type Props = { project: Project };
 
 function initials(name: string): string {
 	const allcap = name.match(/\b[A-Z]{2,}\b/);
@@ -16,10 +16,10 @@ function initials(name: string): string {
 		.toUpperCase();
 }
 
-export function ProjectMedia({project, counter}: Props) {
+export function ProjectMedia({project}: Props) {
 	return (
 		<div
-			className="relative aspect-[16/10] w-full overflow-hidden border-b border-border bg-gradient-to-br from-[#001a33] to-[#020617]">
+			className="relative aspect-16/10 w-full overflow-hidden border-b border-border bg-linear-to-br from-[#001a33] to-bg">
 			<div
 				className="absolute inset-0"
 				style={{
@@ -28,19 +28,29 @@ export function ProjectMedia({project, counter}: Props) {
 					backgroundSize: "36px 36px",
 				}}
 			/>
-			<span
-				className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[clamp(64px,8vw,104px)] font-bold tracking-tighter text-accent">
-        {initials(project.name)}
-      </span>
+			<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[clamp(64px,8vw,104px)] font-bold tracking-tighter text-accent">
+				{initials(project.name)}
+			</span>
 			{project.sample && (
-				<div
-					className="absolute inset-0 z-10 bg-cover bg-center"
-					style={{backgroundImage: `url(${project.sample})`}}
-				/>
+				project.sample.endsWith(".mp4") ? (
+					<video
+						className="absolute inset-0 z-10 h-full w-full object-cover object-top"
+						src={project.sample}
+						autoPlay
+						loop
+						muted
+						playsInline
+					/>
+				) : (
+					<div
+						className="absolute inset-0 z-10 bg-contain bg-top bg-no-repeat"
+						style={{
+							backgroundImage: `url(${project.sample})`,
+							backgroundColor: project.sampleBackground ?? "var(--color-bg)",
+						}}
+					/>
+				)
 			)}
-			<span className="absolute top-4 right-4 z-20 text-xs uppercase tracking-[0.2em] text-muted">
-        {counter}
-      </span>
 		</div>
 	);
 }

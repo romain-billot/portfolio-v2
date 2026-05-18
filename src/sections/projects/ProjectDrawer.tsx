@@ -4,17 +4,13 @@ import {ProjectDrawerCols} from "./ProjectDrawerCols";
 
 type Props = {
 	project: Project | null;
-	index: number | null;
-	total: number;
 	onClose: () => void;
 };
 
-export function ProjectDrawer({project, index, total, onClose}: Props) {
+export function ProjectDrawer({project, onClose}: Props) {
 	const open = project !== null;
 	const meta = project
-		? `Projet ${String((index ?? 0) + 1).padStart(2, "0")} — ${project.year ?? ""} — ${
-			project.kind ?? ""
-		}`.replace(/—\s*—/g, "—").replace(/—\s*$/, "").trim()
+		? `${project.year ?? ""} — ${project.kind ?? ""}`.replace(/—\s*—/g, "—").replace(/^—\s*/, "").replace(/—\s*$/, "").trim()
 		: "";
 
 	return (
@@ -55,6 +51,18 @@ export function ProjectDrawer({project, index, total, onClose}: Props) {
 								</div>
 							</div>
 						)}
+						{project.hosting && project.hosting.length > 0 && (
+							<div className="mt-7 border-t border-border pt-7">
+								<div className="mb-3.5 text-xs font-medium uppercase tracking-[0.18em] text-muted">
+									Hébergement
+								</div>
+								<div className="flex flex-wrap gap-1.5">
+									{project.hosting.map((h) => (
+										<Tag key={h}>{h}</Tag>
+									))}
+								</div>
+							</div>
+						)}
 						<div className="mt-9 flex flex-wrap gap-2.5">
 							{project.github && (
 								<a
@@ -79,12 +87,6 @@ export function ProjectDrawer({project, index, total, onClose}: Props) {
 								</a>
 							)}
 						</div>
-						{total > 1 && (
-							<div
-								className="mt-9 border-t border-border pt-6 text-xs uppercase tracking-[0.16em] text-muted">
-								{String((index ?? 0) + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
-							</div>
-						)}
 					</>
 				)}
 			</aside>
