@@ -10,7 +10,7 @@ export function EducationItem({edu, index}: Props) {
 			index={index}
 			className={
 				"grid grid-cols-[200px_1fr_auto] items-center gap-8 border-b border-border py-[26px] max-md:grid-cols-1 max-md:gap-1.5 max-md:py-[22px]" +
-				(edu.dim ? " opacity-40" : "")
+				(edu.dim ? " opacity-40 transition-opacity hover:opacity-100" : "")
 			}
 		>
 			<div className="text-xs uppercase tracking-widest text-muted">
