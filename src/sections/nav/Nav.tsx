@@ -9,7 +9,7 @@ export function Nav() {
     return (
         <>
             <nav
-                className="fixed top-4 left-1/2 z-100 flex h-13 w-[calc(100%-32px)] max-w-7xl -translate-x-1/2 items-center justify-between rounded-4xl border border-border bg-bg-2/55 px-6 text-sm tracking-tight backdrop-blur-xl backdrop-saturate-150">
+                className="fixed top-4 left-1/2 z-100 flex h-13 w-auto -translate-x-1/2 items-center gap-10 rounded-4xl border border-border bg-bg-2/55 px-8 text-sm tracking-tight backdrop-blur-xl backdrop-saturate-150 max-md:w-[calc(100%-32px)] max-md:justify-between max-md:gap-0">
                 <a href="#hero" className="font-semibold tracking-wider">
                     {cv.basics.name}
                 </a>
