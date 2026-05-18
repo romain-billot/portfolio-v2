@@ -67,7 +67,7 @@
 				"Organisation des lignes de production"
 			],
 			"honors": null,
-			"dim": true
+			"dim": false
 		}
 	],
 	"continuing-education": [
@@ -525,7 +525,7 @@
 				"Développement de nouveaux véhicules lancés avec succès sur le marché, répondant aux exigences de qualité et de performance.",
 				"Développement d'outils d'automatisation pour la modélisation et la conception mécanique."
 			],
-			"dim": true
+			"dim": false
 		},
 		{
 			"name": "Plast Concept",
@@ -543,7 +543,7 @@
 				"CAO",
 				"Analyse de faisabilité"
 			],
-			"dim": true
+			"dim": false
 		}
 	]
 }
