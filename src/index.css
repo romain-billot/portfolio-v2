@@ -11,6 +11,16 @@
     --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
 }
 
+@property --flare-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes flare-spin {
+    to { --flare-angle: 360deg; }
+}
+
 @layer base {
     html {
         scroll-behavior: smooth;
@@ -190,5 +200,26 @@
         button {
             cursor: pointer;
         }
+    }
+}
+
+@layer components {
+    .highlight-flare {
+        position: relative;
+        border-radius: 1rem;
+        padding: 1px;
+        background: conic-gradient(
+            from var(--flare-angle),
+            transparent 0%,
+            var(--color-accent) 15%,
+            transparent 30%
+        );
+        animation: flare-spin 4s linear infinite;
+    }
+
+    .highlight-flare-inner {
+        height: 100%;
+        border-radius: calc(1rem - 1px);
+        background: var(--color-bg-2);
     }
 }
