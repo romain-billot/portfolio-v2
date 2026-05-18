@@ -1,5 +1,4 @@
 import type {ReactNode} from "react";
-import {SectionLabel} from "./SectionLabel";
 
 type Props = {
 	id?: string;
@@ -15,7 +14,11 @@ export function Section({id, title, children, className = ""}: Props) {
 			id={id}
 			className={`relative mx-auto max-w-7xl px-8 pt-18 pb-10 max-md:px-6 max-md:pt-13 max-md:pb-8 ${className}`}
 		>
-			{title ? <SectionLabel title={title}/> : null}
+			{title ? (
+				<h2 className="mb-12 text-[clamp(40px,4.5vw,72px)] font-bold leading-none tracking-tight max-md:mb-8">
+					{title}
+				</h2>
+			) : null}
 			{children}
 		</section>
 	);
