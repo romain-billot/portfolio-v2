@@ -301,7 +301,7 @@
 		{
 			"name": "Portfolio",
 			"isActive": true,
-			"year": "2025",
+			"year": "2026",
 			"kind": "Projet personnel",
 			"description": "Portfolio développeur — design system maison, animations fluides, données centralisées en JSON.",
 			"context": "Conception et développement de mon portfolio personnel, vitrine de mes projets et compétences. L'objectif : un site rapide, accessible et visuellement soigné, sans dépendances inutiles.",
@@ -323,8 +323,8 @@
 			],
 			"url": "https://romain.billot.xyz",
 			"github": null,
-			"sample": null,
-			"sampleType": null,
+			"sample": "/samples/portfolio.png",
+			"sampleType": "file",
 			"sampleBackground": null,
 			"hosting": [
 				"Vercel"
