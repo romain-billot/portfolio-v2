@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {getActiveProjects} from "./lib/cv";
+import cv from "./lib/cv";
 import {useEscape} from "./hooks/useEscape";
 import {useScrollLock} from "./hooks/useScrollLock";
 import {Cursor} from "./ui/Cursor";
@@ -15,7 +15,7 @@ import {ProjectDrawer} from "./sections/projects/ProjectDrawer";
 
 export default function Portfolio() {
 	const [drawerIndex, setDrawerIndex] = useState<number | null>(null);
-	const projects = getActiveProjects();
+	const projects = cv.projects;
 	const selected = drawerIndex !== null ? (projects[drawerIndex] ?? null) : null;
 
 	const close = () => setDrawerIndex(null);

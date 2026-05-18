@@ -19,7 +19,7 @@ function initials(name: string): string {
 export function ProjectMedia({project}: Props) {
 	return (
 		<div
-			className="relative aspect-16/10 w-full overflow-hidden border-b border-border bg-linear-to-br from-[#001a33] to-bg">
+			className="relative w-full overflow-hidden border-b border-border bg-linear-to-br from-[#001a33] to-bg" style={{aspectRatio: "16/9.05"}}>
 			<div
 				className="absolute inset-0"
 				style={{
@@ -41,12 +41,13 @@ export function ProjectMedia({project}: Props) {
 					/>
 				) : project.sample.endsWith(".mp4") ? (
 					<video
-						className="absolute inset-0 z-10 h-full w-full object-cover object-top"
+						className="absolute inset-0 z-10 h-full w-full object-contain object-top"
 						src={project.sample}
 						autoPlay
 						loop
 						muted
 						playsInline
+						style={{backgroundColor: project.sampleBackground ?? "var(--color-bg)"}}
 					/>
 				) : (
 					<div

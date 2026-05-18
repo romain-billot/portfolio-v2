@@ -2,6 +2,7 @@ import type {Project} from "../../lib/types";
 import {Tag} from "../../ui/Tag";
 import {RevealOnScroll} from "../../ui/RevealOnScroll";
 import {ProjectMedia} from "./ProjectMedia";
+import {StatusBadge} from "../../ui/StatusBadge";
 
 type Props = {
 	project: Project;
@@ -26,9 +27,12 @@ export function ProjectCard({project, index, onOpen}: Props) {
 						<span>{kind}</span>
 						{year && <span>{year}</span>}
 					</div>
-					<h3 className="mb-3 text-4xl font-semibold leading-tight tracking-tight max-md:text-3xl">
-						{project.name}
-					</h3>
+					<div className="mb-3 flex items-center justify-between gap-3">
+						<h3 className="text-4xl font-semibold leading-tight tracking-tight max-md:text-3xl">
+							{project.name}
+						</h3>
+						<StatusBadge active={project.isActive} />
+					</div>
 					<p className="mb-5 max-w-md text-sm leading-[1.65] text-muted">
 						{project.description}
 					</p>

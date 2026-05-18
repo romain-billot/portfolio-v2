@@ -1,11 +1,11 @@
-import {getActiveProjects} from "../../lib/cv";
+import cv from "../../lib/cv";
 import {Section} from "../../ui/Section";
 import {ProjectCard} from "./ProjectCard";
 
 type Props = { onOpen: (index: number) => void };
 
 export function Projects({onOpen}: Props) {
-	const projects = getActiveProjects();
+	const projects = cv.projects;
 	return (
 		<Section id="projects" index="02" title="Projets">
 			<div className="grid grid-cols-2 gap-6 max-md:grid-cols-1">

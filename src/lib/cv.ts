@@ -16,9 +16,6 @@ export const SKILL_CATEGORIES = [
 
 export type SkillCategory = (typeof SKILL_CATEGORIES)[number];
 
-export function getActiveProjects(): Project[] {
-	return cv.projects.filter((p) => p.isActive);
-}
 
 export function groupSkillsByCategory(): { category: SkillCategory; skills: Skill[]; dim: boolean }[] {
 	return SKILL_CATEGORIES.map((category) => {
