@@ -15,7 +15,7 @@ export function WorkItem({work, index}: Props) {
 		<RevealOnScroll
 			index={index}
 			className={
-				"group/xp grid grid-cols-[200px_1fr] items-start gap-8 border-b border-border pt-4 pb-[30px] transition-opacity max-md:grid-cols-1 max-md:gap-2 max-md:pt-3 max-md:pb-6" +
+				"group/xp grid grid-cols-[200px_1fr] items-start gap-8 border-b border-border pt-4 pb-7.5 transition-opacity max-md:grid-cols-1 max-md:gap-2 max-md:pt-3 max-md:pb-6" +
 				(dim ? " opacity-35 hover:opacity-100" + (open ? " opacity-100" : "") : "")
 			}
 		>
@@ -32,7 +32,7 @@ export function WorkItem({work, index}: Props) {
 					<div className="flex items-start justify-between gap-4 max-md:gap-3">
 						<div>
 							<div
-								className="text-2xl font-medium tracking-normal transition-colors group-hover/xp:text-accent max-md:text-xl">
+								className="text-2xl font-medium tracking-normal max-md:text-xl">
 								{work.position}
 							</div>
 							<div className="mt-1 text-sm tracking-tight text-muted">
@@ -44,8 +44,8 @@ export function WorkItem({work, index}: Props) {
 					</div>
 					<div
 						className={
-							"overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(.4,0,.2,1)]" +
-							(open ? " max-h-[600px]" : " max-h-0")
+							"overflow-hidden transition-[max-height] duration-500 ease-in-out" +
+							(open ? " max-h-150" : " max-h-0")
 						}
 					>
 						<div className="max-w-3xl pt-5 text-sm leading-[1.7] text-muted">
