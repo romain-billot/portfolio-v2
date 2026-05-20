@@ -1,6 +1,5 @@
-// @ts-ignore
 import cvJson from "@/cv.json";
-import type {CV, Project, Skill, Work} from "./types";
+import type {CV, Skill, Work} from "./types";
 
 const cv = cvJson as unknown as CV;
 
@@ -10,6 +9,7 @@ export const SKILL_CATEGORIES = [
 	"Frontend",
 	"Backend",
 	"Données + DevOps",
+	"Outils",
 	"Fullstack",
 	"Avant le code",
 ] as const;

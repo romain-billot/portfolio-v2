@@ -144,6 +144,27 @@
 			]
 		},
 		{
+			"name": "TypeScript",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"JavaScript",
+				"Typed"
+			]
+		},
+		{
+			"name": "Jest",
+			"level": "Intermediate",
+			"category": "Frontend",
+			"keywords": [
+				"Testing",
+				"JavaScript",
+				"Unit Tests"
+			]
+		},
+		{
 			"name": "Php",
 			"level": "Intermediate",
 			"category": "Backend",
@@ -173,6 +194,16 @@
 				"Backend",
 				"Node",
 				"Server"
+			]
+		},
+		{
+			"name": "Pest",
+			"level": "Intermediate",
+			"category": "Backend",
+			"keywords": [
+				"Testing",
+				"PHP",
+				"Unit Tests"
 			]
 		},
 		{
@@ -211,7 +242,7 @@
 		{
 			"name": "Git",
 			"level": "Intermediate",
-			"category": "Données + DevOps",
+			"category": "Outils",
 			"keywords": [
 				"Version Control",
 				"Collaboration",
@@ -219,14 +250,45 @@
 			]
 		},
 		{
-			"name": "GitHub",
+			"name": "PhpStorm",
+			"level": "Intermediate",
+			"category": "Outils",
+			"keywords": [
+				"IDE",
+				"PHP",
+				"Development"
+			]
+		},
+		{
+			"name": "Trello",
+			"level": "Intermediate",
+			"category": "Outils",
+			"keywords": [
+				"Project Management",
+				"Kanban",
+				"Collaboration"
+			]
+		},
+		{
+			"name": "Claude Code",
+			"level": "Intermediate",
+			"category": "Outils",
+			"keywords": [
+				"AI",
+				"CLI",
+				"Development",
+				"Productivity"
+			]
+		},
+		{
+			"name": "GitHub Actions",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
 			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code",
-				"Git"
+				"CI/CD",
+				"Automation",
+				"Pipeline",
+				"DevOps"
 			]
 		},
 		{

@@ -7,4 +7,4 @@ export const NAV_LINKS: NavLink[] = [
 	{href: "#contact", label: "Contact"},
 ];
 
-export const CV_PDF = "/CV%20Romain%20Billot.pdf";
+export const CV_PDF = "/pdf/CV%20Romain%20Billot.pdf";
