@@ -380,8 +380,8 @@
 				"Vite",
 				"Tailwind CSS 4"
 			],
-			"url": "https://romain.billot.xyz",
-			"github": null,
+			"url": null,
+			"github": "https://github.com/romain-billot/portfolio-v2",
 			"sample": "/samples/portfolio.png",
 			"sampleType": "file",
 			"sampleBackground": null,
