@@ -8,7 +8,7 @@ export function Hero() {
 	return (
 		<section
 			id="hero"
-			className="relative mx-auto flex max-w-7xl flex-col overflow-hidden px-8 pt-45 pb-15 max-md:px-6 max-md:pt-38"
+			className="relative mx-auto flex max-w-7xl flex-col overflow-hidden px-8 pt-45 pb-15 max-md:px-6 max-md:pt-28"
 		>
 			<div className="relative z-10 flex items-end gap-15 max-md:flex-col max-md:items-start max-md:gap-10">
 				<div className="flex-[1.35] min-w-0">
