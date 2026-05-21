@@ -10,15 +10,15 @@ export function Hero() {
 			id="hero"
 			className="relative mx-auto flex max-w-7xl flex-col overflow-hidden px-8 pt-45 pb-15 max-md:px-6 max-md:pt-28"
 		>
-			<div className="relative z-10 flex items-end gap-15 max-md:flex-col max-md:items-start max-md:gap-10">
-				<div className="flex-[1.35] min-w-0">
+			<div className="relative z-10 flex items-end gap-15 max-md:flex-col max-md:items-center max-md:gap-10">
+				<div className="flex-[0.65] min-w-0 md:order-2">
+					<HeroPhoto src={cv.basics.image} alt={cv.basics.name}/>
+				</div>
+				<div className="flex-[1.35] min-w-0 md:order-1 max-md:w-full">
 					<HeroIdentity
 						name={cv.basics.name}
 						tagline={`${cv.basics.label} · ${cv.basics.location.city} / Remote`}
 					/>
-				</div>
-				<div className="flex-[0.65] min-w-0">
-					<HeroPhoto src={cv.basics.image} alt={cv.basics.name}/>
 				</div>
 			</div>
 			<div
