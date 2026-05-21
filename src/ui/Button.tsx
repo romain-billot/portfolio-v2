@@ -7,7 +7,7 @@ type Props = AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 const base =
-	"inline-flex items-center justify-center w-40 max-md:w-full gap-2 whitespace-nowrap rounded-full px-6 py-3 text-sm font-medium tracking-tight transition-colors";
+	"inline-flex items-center justify-center w-30 max-md:w-full gap-2 whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium tracking-tight transition-colors";
 
 const variants: Record<Variant, string> = {
 	outline: "border border-border text-text hover:border-text",
