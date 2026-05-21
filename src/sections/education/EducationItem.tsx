@@ -23,7 +23,7 @@ export function EducationItem({edu, index}: Props) {
 				<div className="mt-1 text-sm text-muted">{edu.institution}</div>
 			</div>
 			{edu.honors ? (
-				<div className="highlight-flare max-md:mt-1.5">
+				<div className="highlight-flare w-fit mx-auto max-md:mt-1.5">
 					<div className="highlight-flare-inner px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-accent">
 						★ {edu.honors}
 					</div>
