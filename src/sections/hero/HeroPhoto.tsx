@@ -18,14 +18,17 @@ export function HeroPhoto({src, alt}: Props) {
 				className="absolute bottom-7 left-7 z-10 text-8xl font-bold leading-[0.85] tracking-tighter text-text">
         R<br/>B
       </span>
-			<img
-				src={src}
-				alt={alt}
-				className="absolute inset-0 z-30 h-full w-full object-cover [filter:grayscale(0.25)_contrast(1.06)]"
-				onError={(e) => {
-					(e.currentTarget as HTMLImageElement).style.display = "none";
-				}}
-			/>
+			<picture>
+				<source srcSet={src.replace(/\.\w+$/, ".webp")} type="image/webp"/>
+				<img
+					src={src}
+					alt={alt}
+					className="absolute inset-0 z-30 h-full w-full object-cover [filter:grayscale(0.25)_contrast(1.06)]"
+					onError={(e) => {
+						(e.currentTarget as HTMLImageElement).style.display = "none";
+					}}
+				/>
+			</picture>
 		</div>
 	);
 }
