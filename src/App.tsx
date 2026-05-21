@@ -27,13 +27,15 @@ export default function Portfolio() {
 		<>
 			<Cursor/>
 			<Nav/>
-			<Hero/>
-			<Skills/>
-			<Projects onOpen={(i) => setDrawerIndex(i)}/>
-			<Experience/>
-			<Education/>
-			<ContinuingEducation/>
-			<Contact/>
+			<main>
+				<Hero/>
+				<Skills/>
+				<Projects onOpen={(i) => setDrawerIndex(i)}/>
+				<Experience/>
+				<Education/>
+				<ContinuingEducation/>
+				<Contact/>
+			</main>
 			<Footer/>
 			<ProjectDrawer
 				project={selected}

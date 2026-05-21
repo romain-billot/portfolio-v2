@@ -20,10 +20,14 @@ export function WorkItem({work, index}: Props) {
 			}
 		>
 			<div
+				role="button"
+				tabIndex={0}
 				onClick={() => setOpen((o) => !o)}
+				onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setOpen((o) => !o)}
 				data-cursor="hover"
 				className="contents text-left"
 				aria-expanded={open}
+				aria-label={work.position}
 			>
 				<div className="pt-1.5 text-xs uppercase tracking-widest text-muted">
 					{formatDateRange(work.startDate, work.endDate)}

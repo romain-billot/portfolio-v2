@@ -5,9 +5,9 @@ type Props = { title: string; skills: string[]; dim?: boolean };
 export function SkillColumn({title, skills, dim = false}: Props) {
 	return (
 		<RevealOnScroll className={dim ? "opacity-35" : ""}>
-			<h4 className="mb-5 text-xs font-medium uppercase tracking-[0.16em] text-muted">
+			<h3 className="mb-5 text-xs font-medium uppercase tracking-[0.16em] text-muted">
 				{title}
-			</h4>
+			</h3>
 			<ul className="list-none">
 				{skills.map((s, i) => (
 					<li

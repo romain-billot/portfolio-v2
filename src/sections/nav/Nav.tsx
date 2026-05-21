@@ -24,7 +24,7 @@ export function Nav() {
                         download
                         className="rounded-3xl bg-text px-4 py-2 font-medium text-bg transition-colors hover:bg-white"
                     >
-                        Télécharger CV ↓
+                        Télécharger CV
                     </a>
                 </div>
                 <button
