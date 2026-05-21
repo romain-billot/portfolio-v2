@@ -29,7 +29,7 @@ export function HeroIdentity({name, tagline}: Props) {
         </span>
 				<span className="block overflow-hidden pb-[0.04em]">
           <span
-			  className={`${LINE_BASE} text-dim [transition-delay:120ms] ${
+			  className={`${LINE_BASE} text-dim delay-120 ${
 				  mounted ? "translate-y-0" : "translate-y-[105%]"
 			  }`}
 		  >
