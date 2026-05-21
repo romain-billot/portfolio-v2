@@ -16,7 +16,7 @@ export function HeroIdentity({name, label, location}: Props) {
 
 	return (
 		<div className="max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-center">
-			<h1 className="text-[clamp(48px,7.3vw,107px)] font-bold leading-[0.92] tracking-tight max-sm:flex max-sm:items-end max-sm:justify-center max-sm:gap-[0.25em] max-sm:text-[clamp(36px,10vw,64px)]">
+			<h1 className="ml-[-0.05em] text-[clamp(48px,7.3vw,107px)] font-bold leading-[0.92] tracking-tight max-sm:ml-0 max-sm:flex max-sm:items-end max-sm:justify-center max-sm:gap-[0.25em] max-sm:text-[clamp(36px,10vw,64px)]">
         <span className="block overflow-hidden pb-[0.04em]">
           <span className={`${LINE_BASE} ${mounted ? "translate-y-0" : "translate-y-[105%]"}`}>
             {first}
