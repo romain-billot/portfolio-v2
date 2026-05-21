@@ -133,7 +133,7 @@
 			]
 		},
 		{
-			"name": "Tailwind",
+			"name": "Tailwind CSS",
 			"level": "Intermediate",
 			"category": "Frontend",
 			"keywords": [
@@ -292,7 +292,7 @@
 			]
 		},
 		{
-			"name": "N8N",
+			"name": "n8n",
 			"level": "Intermediate",
 			"category": "Données + DevOps",
 			"keywords": [
@@ -364,8 +364,8 @@
 			"kind": "Projet personnel",
 			"description": "Portfolio développeur — design system maison, animations fluides, données centralisées en JSON.",
 			"context": "Conception et développement de mon portfolio personnel, vitrine de mes projets et compétences. L'objectif : un site rapide, accessible et visuellement soigné, sans dépendances inutiles.",
-			"challenges": "Construire un design system cohérent from scratch avec Tailwind 4 sans UI library. Animer des éléments complexes (curseur personnalisé, transitions de page, highlights) de façon fluide et non-invasive. Centraliser toutes les données dans un seul fichier JSON pour simplifier les mises à jour.",
-			"learnings": "Maîtrise avancée de Tailwind CSS 4 et ses nouvelles primitives. Conception d'animations CSS performantes. Architecture front simple et maintenable sans framework de state management.",
+			"challenges": "Construire un design system cohérent from scratch avec Tailwind CSS sans UI library. Animer des éléments complexes (curseur personnalisé, transitions de page, highlights) de façon fluide et non-invasive. Centraliser toutes les données dans un seul fichier JSON pour simplifier les mises à jour.",
+			"learnings": "Maîtrise avancée de Tailwind CSS et ses nouvelles primitives. Conception d'animations CSS performantes. Architecture front simple et maintenable sans framework de state management.",
 			"highlights": [
 				"Design system maison sans UI library",
 				"Curseur personnalisé animé",
@@ -375,10 +375,10 @@
 				"Responsive mobile-first"
 			],
 			"skills": [
-				"React 19",
+				"React",
 				"TypeScript",
 				"Vite",
-				"Tailwind CSS 4"
+				"Tailwind CSS"
 			],
 			"url": null,
 			"github": "https://github.com/romain-billot/portfolio-v2",
@@ -471,8 +471,7 @@
 			"skills": [
 				"Next.js",
 				"React",
-				"Tailwind CSS",
-				"OpenAI API"
+				"Tailwind CSS"
 			],
 			"url": "https://gitdiffsummarize.vercel.app/",
 			"github": "https://github.com/romain-billot/gitDiffSummarize",
@@ -504,7 +503,7 @@
 			"skills": [
 				"JavaScript",
 				"PostgreSQL",
-				"N8N",
+				"n8n",
 				"GitLab"
 			]
 		},
@@ -531,13 +530,12 @@
 				"Déploiement de l'application sur un hébergeur."
 			],
 			"skills": [
-				"Laravel",
 				"Vue.js",
+				"Laravel",
 				"Inertia.js",
 				"Tailwind CSS",
-				"API Stripe",
 				"PostgreSQL",
-				"Docker"
+				"Coolify"
 			]
 		},
 		{
@@ -587,6 +585,11 @@
 				"Développement de nouveaux véhicules lancés avec succès sur le marché, répondant aux exigences de qualité et de performance.",
 				"Développement d'outils d'automatisation pour la modélisation et la conception mécanique."
 			],
+			"skills": [
+				"CAO",
+				"Catia V5",
+				"VBA"
+			],
 			"dim": false
 		},
 		{
@@ -603,7 +606,8 @@
 			"achievements": null,
 			"skills": [
 				"CAO",
-				"Analyse de faisabilité"
+				"Catia V5",
+				"VBA"
 			],
 			"dim": false
 		}

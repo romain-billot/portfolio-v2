@@ -27,8 +27,8 @@ export function ProjectCard({project, index, onOpen}: Props) {
 						<span>{kind}</span>
 						{year && <span>{year}</span>}
 					</div>
-					<div className="mb-3 flex items-center justify-between gap-3">
-						<h3 className="text-4xl font-semibold leading-tight tracking-tight max-md:text-3xl">
+					<div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+						<h3 className="text-3xl font-semibold leading-tight tracking-tight max-md:text-2xl whitespace-nowrap">
 							{project.name}
 						</h3>
 						<StatusBadge active={project.isActive} />
