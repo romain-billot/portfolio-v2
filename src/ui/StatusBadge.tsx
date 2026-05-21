@@ -13,7 +13,7 @@ export function StatusBadge({active}: Props) {
 		>
 			<span
 				className={`size-1.5 rounded-full ${
-					active ? "bg-emerald-400 shadow-[0_0_6px_1px_#34d399]" : "bg-amber-400"
+					active ? "bg-emerald-400 shadow-[0_0_6px_1px_#34d399]" : "bg-amber-400 shadow-[0_0_6px_1px_#fbbf24]"
 				}`}
 			/>
 			{active ? "En prod" : "En dev"}
