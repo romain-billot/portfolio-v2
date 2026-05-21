@@ -9,7 +9,7 @@ export function EducationItem({edu, index}: Props) {
 		<RevealOnScroll
 			index={index}
 			className={
-				"grid grid-cols-[200px_1fr_auto] items-center gap-8 border-b border-border pt-4 pb-[26px] max-md:grid-cols-1 max-md:gap-1.5 max-md:pt-3 max-md:pb-[22px]" +
+				"grid grid-cols-[200px_1fr_auto] items-center gap-8 border-b border-border pt-4 pb-6.5 max-md:grid-cols-1 max-md:gap-1.5 max-md:pt-3 max-md:pb-[22px]" +
 				(edu.dim ? " opacity-40 transition-opacity hover:opacity-100" : "")
 			}
 		>
@@ -23,8 +23,10 @@ export function EducationItem({edu, index}: Props) {
 				<div className="mt-1 text-sm text-muted">{edu.institution}</div>
 			</div>
 			{edu.honors ? (
-				<div className="text-xs font-medium uppercase tracking-[0.14em] text-accent max-md:pt-1.5">
-					★ {edu.honors}
+				<div className="highlight-flare max-md:mt-1.5">
+					<div className="highlight-flare-inner px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-accent">
+						★ {edu.honors}
+					</div>
 				</div>
 			) : (
 				<div/>
