@@ -17,7 +17,8 @@ export function Hero() {
 				<div className="flex-[1.35] min-w-0 md:order-1 max-md:w-full">
 					<HeroIdentity
 						name={cv.basics.name}
-						tagline={`${cv.basics.label} · ${cv.basics.location.city} / Remote`}
+						label={cv.basics.label}
+						location={`${cv.basics.location.city} / Remote`}
 					/>
 				</div>
 			</div>
