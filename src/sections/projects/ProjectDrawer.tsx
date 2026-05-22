@@ -53,7 +53,7 @@ export function ProjectDrawer({project, onClose}: Props) {
 							<StatusBadge active={project.isActive}/>
 						</div>
 						<ProjectDrawerCols project={project}/>
-						<TagSection label="Stack technique" items={project.skills ?? []}/>
+						<TagSection label="Stack" items={project.skills ?? []}/>
 						<TagSection label="Hébergement" items={project.hosting ?? []}/>
 						<div className="mt-9 flex flex-wrap justify-center gap-2.5">
 							{project.github && (
