@@ -1,15 +1,34 @@
+import type {ReactNode} from "react";
 import cv from "../../lib/cv";
 import {Section} from "../../ui/Section";
 import {EducationItem} from "./EducationItem";
 
-export function Education() {
+function SubSection({title, children}: { title: string; children: ReactNode }) {
 	return (
-		<Section id="formation" index="04" title="Formation">
-			<div className="border-t border-border">
+		<div className="mb-12 last:mb-0">
+			<h3 className="mb-4 text-xs font-medium uppercase tracking-[0.16em] text-muted">{title}</h3>
+			<div className="border-t border-border">{children}</div>
+		</div>
+	);
+}
+
+export function Education() {
+	const continuing = cv["continuing-education"] ?? [];
+
+	return (
+		<Section id="formation" index="04" title="Formations">
+			<SubSection title="Parcours académique">
 				{cv.education.map((edu, i) => (
 					<EducationItem key={`${edu.institution}-${edu.startDate}`} edu={edu} index={i}/>
 				))}
-			</div>
+			</SubSection>
+			{continuing.length > 0 && (
+				<SubSection title="Formation continue">
+					{continuing.map((edu, i) => (
+						<EducationItem key={`${edu.institution}-${edu.startDate}`} edu={edu} index={i}/>
+					))}
+				</SubSection>
+			)}
 		</Section>
 	);
 }
