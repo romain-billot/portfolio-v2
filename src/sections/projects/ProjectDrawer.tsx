@@ -61,7 +61,6 @@ export function ProjectDrawer({project, onClose}: Props) {
 									href={project.github}
 									target="_blank"
 									rel="noopener noreferrer"
-									data-cursor="hover"
 								>
 									<GitHubIcon/>
 									GitHub
@@ -72,7 +71,6 @@ export function ProjectDrawer({project, onClose}: Props) {
 									href={project.url}
 									target="_blank"
 									rel="noopener noreferrer"
-									data-cursor="hover"
 								>
 									Voir l&apos;app →
 								</Button>

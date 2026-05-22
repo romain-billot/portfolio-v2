@@ -14,15 +14,15 @@ export function FooterLinks() {
 					target="_blank"
 					rel="noopener noreferrer"
 					className={linkClass}
-					data-cursor="hover"
+					
 				>
 					{p.network} <span>→</span>
 				</a>
 			))}
-			<a href={`mailto:${cv.basics.email}`} className={linkClass} data-cursor="hover">
+			<a href={`mailto:${cv.basics.email}`} className={linkClass} >
 				{cv.basics.email} <span>→</span>
 			</a>
-			<a href={CV_PDF} download className={linkClass} data-cursor="hover">
+			<a href={CV_PDF} download className={linkClass} >
 				<span>↓</span> Télécharger CV
 			</a>
 		</div>

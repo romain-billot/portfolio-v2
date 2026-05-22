@@ -5,7 +5,7 @@ type Props = {
 
 export function HeroHighlight({title, detail}: Props) {
 	return (
-		<div data-cursor="hover" className="highlight-flare h-full">
+		<div  className="highlight-flare h-full">
 			<div className="highlight-flare-inner flex flex-col p-5">
 				<div className="text-xl font-semibold leading-tight tracking-normal text-text">
 					{title}

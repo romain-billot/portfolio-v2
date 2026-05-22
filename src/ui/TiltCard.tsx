@@ -13,7 +13,7 @@ export function TiltCard({children, className = "", onClick}: Props) {
 		<article
 			ref={ref as never}
 			onClick={onClick}
-			data-cursor="hover"
+			
 			className={`will-change-transform ${className}`}
 		>
 			{children}

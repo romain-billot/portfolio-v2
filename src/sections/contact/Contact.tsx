@@ -26,7 +26,7 @@ export function Contact() {
 						key={label}
 						href={href}
 						variant={variant}
-						data-cursor="hover"
+						
 						{...(external ? {target: "_blank", rel: "noopener noreferrer"} : {})}
 					>
 						{icon}

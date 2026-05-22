@@ -2,7 +2,6 @@ import {useState} from "react";
 import cv from "./lib/cv";
 import {useEscape} from "./hooks/useEscape";
 import {useScrollLock} from "./hooks/useScrollLock";
-import {Cursor} from "./ui/Cursor";
 import {Nav} from "./sections/nav/Nav";
 import {Hero} from "./sections/hero/Hero";
 import {Skills} from "./sections/skills/Skills";
@@ -25,7 +24,6 @@ export default function Portfolio() {
 
 	return (
 		<>
-			<Cursor/>
 			<Nav/>
 			<main className="space-y-18 max-md:space-y-13">
 				<Hero/>

@@ -18,8 +18,8 @@ export function ProjectCard({project, index, onOpen}: Props) {
 		<RevealOnScroll index={index}>
 			<div
 				onClick={onOpen}
-				data-cursor="hover"
-				className="overflow-hidden rounded-2xl border border-border bg-bg-2 transition-colors hover:border-accent"
+				
+				className="cursor-pointer overflow-hidden rounded-2xl border border-border bg-bg-2 transition-colors hover:border-accent"
 			>
 				<ProjectMedia project={project}/>
 				<div className="px-7 pt-7 pb-8">
