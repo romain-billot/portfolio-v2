@@ -27,7 +27,7 @@ export default function Portfolio() {
 		<>
 			<Cursor/>
 			<Nav/>
-			<main>
+			<main className="space-y-18 max-md:space-y-13">
 				<Hero/>
 				<Skills/>
 				<Projects onOpen={(i) => setDrawerIndex(i)}/>

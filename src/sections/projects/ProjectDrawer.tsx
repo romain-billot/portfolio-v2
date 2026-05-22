@@ -5,12 +5,23 @@ import {StatusBadge} from "../../ui/StatusBadge";
 import {Tag} from "../../ui/Tag";
 import {CircleButton} from "../../ui/CircleButton";
 import {ProjectDrawerCols} from "./ProjectDrawerCols";
-import {ProjectMedia} from "./ProjectMedia";
 
 type Props = {
 	project: Project | null;
 	onClose: () => void;
 };
+
+function TagSection({label, items}: { label: string; items: string[] }) {
+	if (!items.length) return null;
+	return (
+		<div className="mt-7 border-t border-border pt-7">
+			<div className="mb-3.5 text-xs font-medium uppercase tracking-[0.18em] text-muted">{label}</div>
+			<div className="flex flex-wrap gap-1.5">
+				{items.map((s) => <Tag key={s}>{s}</Tag>)}
+			</div>
+		</div>
+	);
+}
 
 export function ProjectDrawer({project, onClose}: Props) {
 	const open = project !== null;
@@ -41,37 +52,10 @@ export function ProjectDrawer({project, onClose}: Props) {
 							</h3>
 							<StatusBadge active={project.isActive}/>
 						</div>
-						{project.sample && (
-							<div className="mb-7 overflow-hidden rounded-2xl border border-border">
-								<ProjectMedia project={project}/>
-							</div>
-						)}
 						<ProjectDrawerCols project={project}/>
-						{project.skills && project.skills.length > 0 && (
-							<div className="mt-7 border-t border-border pt-7">
-								<div className="mb-3.5 text-xs font-medium uppercase tracking-[0.18em] text-muted">
-									Stack technique
-								</div>
-								<div className="flex flex-wrap gap-1.5">
-									{project.skills.map((s) => (
-										<Tag key={s}>{s}</Tag>
-									))}
-								</div>
-							</div>
-						)}
-						{project.hosting && project.hosting.length > 0 && (
-							<div className="mt-7 border-t border-border pt-7">
-								<div className="mb-3.5 text-xs font-medium uppercase tracking-[0.18em] text-muted">
-									Hébergement
-								</div>
-								<div className="flex flex-wrap gap-1.5">
-									{project.hosting.map((h) => (
-										<Tag key={h}>{h}</Tag>
-									))}
-								</div>
-							</div>
-						)}
-						<div className="mt-9 flex flex-wrap gap-2.5">
+						<TagSection label="Stack technique" items={project.skills ?? []}/>
+						<TagSection label="Hébergement" items={project.hosting ?? []}/>
+						<div className="mt-9 flex flex-wrap justify-center gap-2.5">
 							{project.github && (
 								<Button
 									href={project.github}
