@@ -21,6 +21,11 @@
     to { --flare-angle: 360deg; }
 }
 
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+}
+
 @layer base {
     html {
         scroll-behavior: smooth;
@@ -148,6 +153,24 @@
         button {
             cursor: pointer;
         }
+    }
+
+    .skeleton {
+        background-color: var(--color-bg-2);
+    }
+
+    .skeleton::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        transform: translateX(-100%);
+        background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.06) 50%,
+            transparent 100%
+        );
+        animation: shimmer 4s ease-in-out infinite;
     }
 
     .highlight-flare {
