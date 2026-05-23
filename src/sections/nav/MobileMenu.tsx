@@ -9,17 +9,17 @@ export function MobileMenu({open, onClose}: Props) {
 	useScrollLock(open);
 
 	return (
-		<div
-			className={`fixed inset-x-0 top-0 z-99 flex-col gap-2 bg-bg-2/95 px-8 pt-23 pb-8 backdrop-blur-xl ${open ? "flex" : "hidden"}`}
-		>
-			{NAV_LINKS.map((l) => (
-				<a key={l.href} href={l.href} onClick={onClose} className={LINK_CLASS}>
-					{l.label}
+		<div className={`fixed inset-0 z-99 ${open ? "block" : "hidden"}`} onClick={onClose}>
+			<div className="flex flex-col gap-2 bg-bg-2/95 px-8 pt-23 pb-8 backdrop-blur-xl" onClick={e => e.stopPropagation()}>
+				{NAV_LINKS.map((l) => (
+					<a key={l.href} href={l.href} onClick={onClose} className={LINK_CLASS}>
+						{l.label}
+					</a>
+				))}
+				<a href={CV_PDF} download onClick={onClose} className={LINK_CLASS}>
+					Télécharger CV ↓
 				</a>
-			))}
-			<a href={CV_PDF} download onClick={onClose} className={LINK_CLASS}>
-				Télécharger CV ↓
-			</a>
+			</div>
 		</div>
 	);
 }
