@@ -1,4 +1,4 @@
-import type {Project} from "../../lib/types";
+import type {Project} from "@/lib/types.ts";
 
 type Col = { title: string; body?: string };
 

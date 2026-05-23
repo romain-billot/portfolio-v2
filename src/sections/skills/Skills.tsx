@@ -1,4 +1,4 @@
-import {groupSkillsByCategory} from "../../lib/cv";
+import {groupSkillsByCategory} from "@/lib/cv.ts";
 import {Section} from "../../ui/Section";
 import {SkillColumn} from "./SkillColumn";
 

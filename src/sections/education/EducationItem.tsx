@@ -1,5 +1,5 @@
-import type {Education} from "../../lib/types";
-import {formatYearRange} from "../../lib/format";
+import type {Education} from "@/lib/types.ts";
+import {formatYearRange} from "@/lib/format.ts";
 import {RevealOnScroll} from "../../ui/RevealOnScroll";
 
 type Props = { edu: Education; index: number };
