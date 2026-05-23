@@ -7,18 +7,15 @@ export function HeroPhoto({src, alt}: Props) {
 
 	return (
 		<div className="skeleton relative aspect-square w-54 max-w-full justify-self-center overflow-hidden rounded-full max-md:w-47 max-md:justify-self-start">
-			<picture>
-				<source srcSet={src} type="image/webp"/>
-				<img
-					src={src}
-					alt={alt}
-					className={`absolute inset-0 z-30 h-full w-full object-cover filter-[grayscale(0.25)_contrast(1.06)] transition-opacity duration-500${loaded ? "" : " opacity-0"}`}
-					onLoad={() => setLoaded(true)}
-					onError={(e) => {
-						(e.currentTarget as HTMLImageElement).style.display = "none";
-					}}
-				/>
-			</picture>
+			<img
+				src={src}
+				alt={alt}
+				className={`absolute inset-0 z-30 h-full w-full object-cover filter-[grayscale(0.25)_contrast(1.06)] transition-opacity duration-500${loaded ? "" : " opacity-0"}`}
+				onLoad={() => setLoaded(true)}
+				onError={(e) => {
+					(e.currentTarget as HTMLImageElement).style.display = "none";
+				}}
+			/>
 		</div>
 	);
 }
