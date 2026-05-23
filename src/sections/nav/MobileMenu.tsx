@@ -2,7 +2,7 @@ import {CV_PDF, NAV_LINKS} from "./links";
 
 type Props = { open: boolean; onClose: () => void };
 
-const LINK_CLASS = "border-b border-border py-2 text-2xl tracking-tight text-text";
+const LINK_CLASS = "flex items-center py-3 text-lg tracking-tight text-text";
 
 export function MobileMenu({open, onClose}: Props) {
 	return (
