@@ -10,7 +10,7 @@ export function HeroPhoto({src, alt}: Props) {
 			<img
 				src={src}
 				alt={alt}
-				className={`absolute inset-0 z-30 h-full w-full object-cover filter-[grayscale(0.25)_contrast(1.06)] transition-opacity duration-500${loaded ? "" : " opacity-0"}`}
+				className={`absolute inset-0 z-30 h-full w-full object-cover filter-[grayscale(0.25)] transition-opacity duration-500${loaded ? "" : " opacity-0"}`}
 				onLoad={() => setLoaded(true)}
 				onError={(e) => {
 					(e.currentTarget as HTMLImageElement).style.display = "none";
