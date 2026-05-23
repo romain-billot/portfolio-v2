@@ -11,11 +11,11 @@ export function Nav() {
     return (
         <>
             <nav
-                className="fixed top-4 left-1/2 z-100 flex h-13 w-auto -translate-x-1/2 items-center gap-10 rounded-4xl border border-border bg-bg-2/55 px-8 text-sm tracking-tight backdrop-blur-xl backdrop-saturate-150 max-md:w-[calc(100%-32px)] max-md:justify-between max-md:gap-0">
+                className="fixed top-4 left-1/2 z-100 flex h-13 w-auto -translate-x-1/2 items-center gap-12 rounded-4xl border border-border bg-bg-2/55 px-10 text-sm tracking-tight whitespace-nowrap backdrop-blur-xl backdrop-saturate-150 max-[900px]:w-[calc(100%-32px)] max-[900px]:justify-between max-[900px]:gap-0 max-[900px]:px-6">
                 <a href="#hero" className="font-semibold tracking-wider">
                     {cv.basics.name}
                 </a>
-                <div className="flex items-center gap-7 max-md:hidden">
+                <div className="flex items-center gap-8 max-[900px]:hidden">
                     {NAV_LINKS.map((l) => (
                         <a key={l.href} href={l.href} className="text-muted transition-colors hover:text-text">
                             {l.label}
@@ -30,7 +30,7 @@ export function Nav() {
                     </a>
                 </div>
                 <button
-                    className={`nav-burger md:hidden${open ? " open" : ""}`}
+                    className={`nav-burger min-[900px]:hidden${open ? " open" : ""}`}
                     onClick={() => setOpen((o) => !o)}
                     aria-label="menu"
                 >

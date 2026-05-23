@@ -139,7 +139,7 @@
         transform: translateY(-6px) rotate(-45deg);
     }
 
-    @media (max-width: 880px) {
+    @media (max-width: 899px) {
         .nav-burger {
             display: flex;
         }
