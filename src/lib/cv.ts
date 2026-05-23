@@ -26,5 +26,5 @@ export function groupSkillsByCategory(): { category: SkillCategory; skills: Skil
 }
 
 export function sortWorkByDate(): Work[] {
-	return [...cv.work].sort((a, b) => (a.startDate < b.startDate ? 1 : -1));
+	return [...cv.work].sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime());
 }

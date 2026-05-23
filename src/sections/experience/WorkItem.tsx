@@ -56,8 +56,8 @@ export function WorkItem({work, index}: Props) {
 							{work.summary && <p>{work.summary}</p>}
 							{work.responsibilities && work.responsibilities.length > 0 && (
 								<ul className="mt-3 list-disc space-y-1 pl-5">
-									{work.responsibilities.map((r, j) => (
-										<li key={j}>{r}</li>
+									{work.responsibilities.map((r) => (
+										<li key={r}>{r}</li>
 									))}
 								</ul>
 							)}

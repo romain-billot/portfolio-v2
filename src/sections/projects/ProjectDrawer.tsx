@@ -1,3 +1,4 @@
+import {useEffect, useRef} from "react";
 import type {Project} from "@/lib/types.ts";
 import {Button} from "../../ui/Button";
 import {GitHubIcon} from "../../ui/icons/GitHubIcon";
@@ -25,6 +26,15 @@ function TagSection({label, items}: { label: string; items: string[] }) {
 
 export function ProjectDrawer({project, onClose}: Props) {
 	const open = project !== null;
+	const asideRef = useRef<HTMLElement>(null);
+
+	useEffect(() => {
+		if (open && asideRef.current) {
+			const btn = asideRef.current.querySelector<HTMLButtonElement>("button");
+			btn?.focus();
+		}
+	}, [open]);
+
 	const meta = project
 		? `${project.year ?? ""} — ${project.kind ?? ""}`.replace(/—\s*—/g, "—").replace(/^—\s*/, "").replace(/—\s*$/, "").trim()
 		: "";
@@ -37,7 +47,11 @@ export function ProjectDrawer({project, onClose}: Props) {
 				aria-hidden="true"
 			/>
 			<aside
+				ref={asideRef}
 				className={"drawer" + (open ? " open" : "")}
+				role="dialog"
+				aria-modal="true"
+				aria-label={project?.name ?? "Projet"}
 				aria-hidden={!open}
 			>
 				 {project && (

@@ -32,14 +32,7 @@ export function ProjectMedia({project}: Props) {
 				{initials(project.name)}
 			</span>
 			{project.sample && (
-				project.sampleType === "url" ? (
-					<iframe
-						className="absolute inset-0 z-10 h-full w-full border-0"
-						src={`https://www.youtube.com/embed/${project.sample.split("/").pop()}?autoplay=1&mute=1&loop=1&playlist=${project.sample.split("/").pop()}&controls=0&modestbranding=1`}
-						allow="autoplay"
-						style={{backgroundColor: project.sampleBackground ?? "var(--color-bg)"}}
-					/>
-				) : project.sample.endsWith(".mp4") ? (
+				project.sample.endsWith(".mp4") ? (
 					<video
 						className="absolute inset-0 z-10 h-full w-full object-contain object-top"
 						src={project.sample}
