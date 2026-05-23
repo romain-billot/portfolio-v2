@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useCallback, useState} from "react";
 import cv from "./lib/cv";
 import {useEscape} from "./hooks/useEscape";
 import {useScrollLock} from "./hooks/useScrollLock";
@@ -17,7 +17,7 @@ export default function Portfolio() {
 	const projects = cv.projects;
 	const selected = drawerIndex !== null ? (projects[drawerIndex] ?? null) : null;
 
-	const close = () => setDrawerIndex(null);
+	const close = useCallback(() => setDrawerIndex(null), []);
 	useEscape(close, drawerIndex !== null);
 	useScrollLock(drawerIndex !== null);
 
