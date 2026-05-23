@@ -2,7 +2,6 @@ import type {ReactNode} from "react";
 
 type Props = {
 	id?: string;
-	index?: string;
 	title?: string;
 	children: ReactNode;
 	className?: string;

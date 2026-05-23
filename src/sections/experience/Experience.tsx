@@ -5,7 +5,7 @@ import {WorkItem} from "./WorkItem";
 export function Experience() {
 	const work = sortWorkByDate();
 	return (
-		<Section id="xp" index="03" title="Expériences">
+		<Section id="xp" title="Expériences">
 			<div className="border-t border-border">
 				{work.map((w, i) => (
 					<WorkItem key={`${w.name}-${w.startDate}`} work={w} index={i}/>

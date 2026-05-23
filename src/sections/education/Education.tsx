@@ -16,7 +16,7 @@ export function Education() {
 	const continuing = cv["continuing-education"] ?? [];
 
 	return (
-		<Section id="formation" index="04" title="Formations">
+		<Section id="formation" title="Formations">
 			<SubSection title="Parcours académique">
 				{cv.education.map((edu, i) => (
 					<EducationItem key={`${edu.institution}-${edu.startDate}`} edu={edu} index={i}/>

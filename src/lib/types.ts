@@ -38,7 +38,6 @@ export type Education = {
 	studyType: string;
 	startDate: string;
 	endDate: string | null;
-	courses?: string[];
 	honors?: string | null;
 	dim?: boolean;
 };
@@ -51,16 +50,6 @@ export type Skill = {
 	dim?: boolean;
 };
 
-export type Language = {
-	language: string;
-	fluency: string;
-};
-
-export type Interest = {
-	name: string;
-	keywords: string[];
-};
-
 export type Project = {
 	name: string;
 	isActive: boolean;
@@ -70,7 +59,6 @@ export type Project = {
 	context?: string;
 	challenges?: string;
 	learnings?: string;
-	highlights?: string[] | null;
 	skills?: string[];
 	url?: string | null;
 	github?: string | null;
@@ -83,7 +71,6 @@ export type Project = {
 export type Work = {
 	name: string;
 	position: string;
-	location_type?: string;
 	location?: string;
 	url?: string | null;
 	startDate: string;
@@ -91,7 +78,6 @@ export type Work = {
 	summary?: string;
 	highlights?: string[] | null;
 	responsibilities?: string[] | null;
-	achievements?: string[] | null;
 	skills?: string[];
 	dim?: boolean;
 };
@@ -99,14 +85,9 @@ export type Work = {
 export type CV = {
 	basics: Basics;
 	highlights: Highlight[];
-	volunteer: unknown;
 	education: Education[];
 	"continuing-education"?: Education[];
-	certificates: unknown[];
 	skills: Skill[];
-	languages: Language[];
-	interests: Interest[];
-	references: unknown[];
 	projects: Project[];
 	work: Work[];
 };

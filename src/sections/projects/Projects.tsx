@@ -7,7 +7,7 @@ type Props = { onOpen: (index: number) => void };
 export function Projects({onOpen}: Props) {
 	const projects = cv.projects;
 	return (
-		<Section id="projects" index="02" title="Projets">
+		<Section id="projects" title="Projets">
 			<div className="grid grid-cols-2 gap-10 max-md:grid-cols-1">
 				{projects.map((p, i) => (
 					<ProjectCard
