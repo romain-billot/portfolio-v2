@@ -38,7 +38,6 @@
 			"detail": "Première application développée dès la fin de ma formation : gestion des inscriptions, contrats et paiements pour plus de 100 participants à chaque festival"
 		}
 	],
-	"volunteer": null,
 	"education": [
 		{
 			"institution": "Cégep de Sherbrooke",
@@ -47,11 +46,6 @@
 			"studyType": "AEC",
 			"startDate": "2023-09",
 			"endDate": "2025-03",
-			"courses": [
-				"Développement d'applications Web et natives",
-				"Conception et développement de bases de données SQL",
-				"Programmation orientée objet"
-			],
 			"honors": "Prix d'excellence scolaire"
 		},
 		{
@@ -61,11 +55,6 @@
 			"studyType": "Bachelor universitaire de technologie",
 			"startDate": "2008-09",
 			"endDate": "2011-06",
-			"courses": [
-				"Conception de produits",
-				"Développement des procédés de fabrication",
-				"Organisation des lignes de production"
-			],
 			"honors": null,
 			"dim": false
 		}
@@ -80,249 +69,28 @@
 		}
 	],
 	"skills": [
-		{
-			"name": "HTML",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend"
-			]
-		},
-		{
-			"name": "CSS",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Responsive Design"
-			]
-		},
-		{
-			"name": "JavaScript",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Backend",
-				"Fullstack"
-			]
-		},
-		{
-			"name": "Vue.js",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"JavaScript Library",
-				"UI"
-			]
-		},
-		{
-			"name": "React",
-			"level": "Beginner",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"JavaScript Library",
-				"UI"
-			]
-		},
-		{
-			"name": "Tailwind CSS",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"CSS Framework",
-				"Responsive Design"
-			]
-		},
-		{
-			"name": "TypeScript",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"JavaScript",
-				"Typed"
-			]
-		},
-		{
-			"name": "Jest",
-			"level": "Intermediate",
-			"category": "Frontend",
-			"keywords": [
-				"Testing",
-				"JavaScript",
-				"Unit Tests"
-			]
-		},
-		{
-			"name": "Php",
-			"level": "Intermediate",
-			"category": "Backend",
-			"keywords": [
-				"Web Development",
-				"Backend",
-				"Server"
-			]
-		},
-		{
-			"name": "Laravel",
-			"level": "Intermediate",
-			"category": "Backend",
-			"keywords": [
-				"Web Development",
-				"Backend",
-				"PHP",
-				"Server"
-			]
-		},
-		{
-			"name": "Express.js",
-			"level": "Intermediate",
-			"category": "Backend",
-			"keywords": [
-				"Web Development",
-				"Backend",
-				"Node",
-				"Server"
-			]
-		},
-		{
-			"name": "Pest",
-			"level": "Intermediate",
-			"category": "Backend",
-			"keywords": [
-				"Testing",
-				"PHP",
-				"Unit Tests"
-			]
-		},
-		{
-			"name": "PostgreSQL",
-			"level": "Intermediate",
-			"category": "Données + DevOps",
-			"keywords": [
-				"Databases",
-				"SQL",
-				"Data Storage",
-				"Backend"
-			]
-		},
-		{
-			"name": "Docker",
-			"level": "Beginner",
-			"category": "Données + DevOps",
-			"keywords": [
-				"Containerization",
-				"DevOps",
-				"Deployment",
-				"Virtualization"
-			]
-		},
-		{
-			"name": "Coolify",
-			"level": "Beginner",
-			"category": "Données + DevOps",
-			"keywords": [
-				"PaaS",
-				"Deployment",
-				"DevOps",
-				"Web Applications"
-			]
-		},
-		{
-			"name": "Git",
-			"level": "Intermediate",
-			"category": "Outils",
-			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code"
-			]
-		},
-		{
-			"name": "PhpStorm",
-			"level": "Intermediate",
-			"category": "Outils",
-			"keywords": [
-				"IDE",
-				"PHP",
-				"Development"
-			]
-		},
-		{
-			"name": "Trello",
-			"level": "Intermediate",
-			"category": "Outils",
-			"keywords": [
-				"Project Management",
-				"Kanban",
-				"Collaboration"
-			]
-		},
-		{
-			"name": "Claude Code",
-			"level": "Intermediate",
-			"category": "Outils",
-			"keywords": [
-				"AI",
-				"CLI",
-				"Development",
-				"Productivity"
-			]
-		},
-		{
-			"name": "GitHub Actions",
-			"level": "Intermediate",
-			"category": "Données + DevOps",
-			"keywords": [
-				"CI/CD",
-				"Automation",
-				"Pipeline",
-				"DevOps"
-			]
-		},
-		{
-			"name": "n8n",
-			"level": "Intermediate",
-			"category": "Données + DevOps",
-			"keywords": [
-				"Automation",
-				"Workflow",
-				"Integration",
-				"No-code"
-			]
-		}
+		{"name": "HTML", "category": "Frontend", "keywords": ["Web Development", "Frontend"]},
+		{"name": "CSS", "category": "Frontend", "keywords": ["Web Development", "Frontend", "Responsive Design"]},
+		{"name": "JavaScript", "category": "Frontend", "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]},
+		{"name": "Vue.js", "category": "Frontend", "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]},
+		{"name": "React", "category": "Frontend", "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]},
+		{"name": "Tailwind CSS", "category": "Frontend", "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]},
+		{"name": "TypeScript", "category": "Frontend", "keywords": ["Web Development", "Frontend", "JavaScript", "Typed"]},
+		{"name": "Jest", "category": "Frontend", "keywords": ["Testing", "JavaScript", "Unit Tests"]},
+		{"name": "Php", "category": "Backend", "keywords": ["Web Development", "Backend", "Server"]},
+		{"name": "Laravel", "category": "Backend", "keywords": ["Web Development", "Backend", "PHP", "Server"]},
+		{"name": "Express.js", "category": "Backend", "keywords": ["Web Development", "Backend", "Node", "Server"]},
+		{"name": "Pest", "category": "Backend", "keywords": ["Testing", "PHP", "Unit Tests"]},
+		{"name": "PostgreSQL", "category": "Données + DevOps", "keywords": ["Databases", "SQL", "Data Storage", "Backend"]},
+		{"name": "Docker", "category": "Données + DevOps", "keywords": ["Containerization", "DevOps", "Deployment", "Virtualization"]},
+		{"name": "Coolify", "category": "Données + DevOps", "keywords": ["PaaS", "Deployment", "DevOps", "Web Applications"]},
+		{"name": "GitHub Actions", "category": "Données + DevOps", "keywords": ["CI/CD", "Automation", "Pipeline", "DevOps"]},
+		{"name": "n8n", "category": "Données + DevOps", "keywords": ["Automation", "Workflow", "Integration", "No-code"]},
+		{"name": "Git", "category": "Outils", "keywords": ["Version Control", "Collaboration", "Source Code"]},
+		{"name": "PhpStorm", "category": "Outils", "keywords": ["IDE", "PHP", "Development"]},
+		{"name": "Trello", "category": "Outils", "keywords": ["Project Management", "Kanban", "Collaboration"]},
+		{"name": "Claude Code", "category": "Outils", "keywords": ["AI", "CLI", "Development", "Productivity"]}
 	],
-	"languages": [
-		{
-			"language": "Français",
-			"fluency": "Langue maternelle"
-		},
-		{
-			"language": "Anglais",
-			"fluency": "Intermédiaire"
-		}
-	],
-	"interests": [
-		{
-			"name": "Technologies",
-			"keywords": [
-				"Self-hosting",
-				"Programmation"
-			]
-		}
-	],
-	"references": [],
 	"projects": [
 		{
 			"name": "Boardmatch",
@@ -333,30 +101,12 @@
 			"context": "Application web qui analyse les préférences d'un joueur (via ses jeux favoris ou un mode découverte par swipe) pour recommander des jeux de société pertinents. Alimentée par une base de ~5000 jeux scrapés depuis BoardGameGeek avec mécaniques, thèmes, familles et complexité.",
 			"challenges": "Conception d'un algorithme de recommandation hybride combinant cosine similarity sur vecteurs de features et Personalized PageRank sur un graphe 'Fans Also Like'. Scraping fiable de BoardGameGeek malgré la protection Cloudflare. Modélisation d'une base relationnelle complexe (mécaniques, thèmes, familles, éditions, langues).",
 			"learnings": "Architecture d'un pipeline de données automatisé de bout en bout avec n8n. Conception d'algorithmes de similarité et de scoring multi-critères. Prise de décision sur la stack frontend selon des contraintes SEO et UX fortes.",
-			"highlights": [
-				"Mode rapide : recommandations à partir de jeux aimés",
-				"Mode découverte : swipe interactif type Tinder (3 directions)",
-				"Algorithme hybride : cosine similarity + graphe PageRank",
-				"Base de ~5000 jeux avec mécaniques, thèmes et familles",
-				"Pipeline de scraping automatisé via n8n",
-				"Fiches jeux SEO-friendly",
-				"Correspondance automatique avec BoardGameGeek via Google Search"
-			],
-			"skills": [
-				"Next.js",
-				"TypeScript",
-				"Tailwind CSS",
-				"Laravel",
-				"PostgreSQL",
-				"n8n"
-			],
+			"skills": ["Next.js", "TypeScript", "Tailwind CSS", "Laravel", "PostgreSQL", "n8n"],
 			"url": null,
 			"github": null,
 			"sample": "/samples/boardmatch.mp4",
 			"sampleBackground": "#f9fafb",
-			"hosting": [
-				"Synology NAS"
-			]
+			"hosting": ["Synology NAS"]
 		},
 		{
 			"name": "Portfolio",
@@ -367,27 +117,12 @@
 			"context": "Conception et développement de mon portfolio personnel, vitrine de mes projets et compétences. L'objectif : un site rapide, accessible et visuellement soigné, sans dépendances inutiles.",
 			"challenges": "Construire un design system cohérent from scratch avec Tailwind CSS sans UI library. Animer des éléments complexes (curseur personnalisé, transitions de page, highlights) de façon fluide et non-invasive. Centraliser toutes les données dans un seul fichier JSON pour simplifier les mises à jour.",
 			"learnings": "Maîtrise avancée de Tailwind CSS et ses nouvelles primitives. Conception d'animations CSS performantes. Architecture front simple et maintenable sans framework de state management.",
-			"highlights": [
-				"Design system maison sans UI library",
-				"Curseur personnalisé animé",
-				"Drawer projets avec media (vidéo / gif)",
-				"Données centralisées en JSON (CV)",
-				"Animations CSS fluides",
-				"Responsive mobile-first"
-			],
-			"skills": [
-				"React",
-				"TypeScript",
-				"Vite",
-				"Tailwind CSS"
-			],
+			"skills": ["React", "TypeScript", "Vite", "Tailwind CSS"],
 			"url": null,
 			"github": "https://github.com/romain-billot/portfolio-v2",
 			"sample": "/samples/portfolio.png",
 			"sampleBackground": null,
-			"hosting": [
-				"Vercel"
-			]
+			"hosting": ["Vercel"]
 		},
 		{
 			"name": "Application FJM",
@@ -398,30 +133,12 @@
 			"context": "Application web pour la gestion des marchés du festival d'art de Montréal. Inscriptions des artistes, gestion des paiements et contrats signés en ligne.",
 			"challenges": "Mise en place de la signature électronique conforme. Automatisation complète du flux d'inscription. Intégration Stripe avec gestion fine des frais et des reçus.",
 			"learnings": "Collaboration avec un client non-technique : traduction des besoins métier en architecture. Maîtrise approfondie de la stack Laravel + Inertia. Tests automatisés sur les parcours critiques.",
-			"highlights": [
-				"Gestion des événements",
-				"Administration des exposants inscrits",
-				"Formulaire de demande de participation",
-				"Traitement et suivi des demandes de participation",
-				"Création de contrats avec signature électronique",
-				"Gestion des factures et paiements via Stripe",
-				"Notifications par courriel"
-			],
-			"skills": [
-				"Vue.js",
-				"Laravel",
-				"Inertia.js",
-				"Tailwind CSS",
-				"PostgreSQL",
-				"Coolify"
-			],
+			"skills": ["Vue.js", "Laravel", "Inertia.js", "Tailwind CSS", "PostgreSQL", "Coolify"],
 			"url": null,
 			"github": null,
 			"sample": "/samples/festivalj.mp4",
 			"sampleBackground": "#ffffff",
-			"hosting": [
-				"Hostinger"
-			]
+			"hosting": ["Hostinger"]
 		},
 		{
 			"name": "PlanTogether",
@@ -432,25 +149,12 @@
 			"context": "Planificateur destiné aux familles. Calendrier partagé, gestion des tâches du quotidien et liste de courses synchronisée entre les membres du foyer.",
 			"challenges": "Synchronisation entre comptes liés. Conception d'une UI claire pour utilisateurs non-techniques. Modélisation de données pour entités partagées avec gestion des permissions.",
 			"learnings": "Construction d'une stack Vue + Express de A à Z. Choix d'une UI lib (PrimeVue) et adaptation au design system. Pilotage d'un projet long format en autonomie.",
-			"highlights": [
-				"Calendrier partagé",
-				"Listes de tâches",
-				"Listes de courses"
-			],
-			"skills": [
-				"Vue.js",
-				"Express.js",
-				"Tailwind CSS",
-				"PrimeVue",
-				"PostgreSQL"
-			],
+			"skills": ["Vue.js", "Express.js", "Tailwind CSS", "PrimeVue", "PostgreSQL"],
 			"url": "https://plantogether.vercel.app/",
 			"github": "https://github.com/romain-billot/planTogether-web",
 			"sample": "/samples/planTogether.png",
 			"sampleBackground": "#ffffff",
-			"hosting": [
-				"Vercel"
-			]
+			"hosting": ["Vercel"]
 		},
 		{
 			"name": "GitDiffSummarize",
@@ -461,30 +165,18 @@
 			"context": "Projet d'apprentissage créé pendant mes études pour m'initier à React et Next.js. À l'époque, les IDE ne proposaient pas encore ce type de fonctionnalité — c'était une vraie niche. Connecté à l'API OpenAI pour analyser un diff et générer des messages de commit clairs et pertinents.",
 			"challenges": "Première application React/Next.js — apprendre les patterns (hooks, state, routing) from scratch sans filet. Construire un prompt qui produise des messages de commit cohérents et exploitables.",
 			"learnings": "Fondamentaux React et Next.js. Intégration d'une API IA dans une app web. Prompt engineering : formuler une instruction précise pour obtenir un résultat structuré et utile.",
-			"highlights": [
-				"Génération de message de commit",
-				"Résumé du diff en langage naturel",
-				"Interface web"
-			],
-			"skills": [
-				"Next.js",
-				"React",
-				"Tailwind CSS"
-			],
+			"skills": ["Next.js", "React", "Tailwind CSS"],
 			"url": "https://gitdiffsummarize.vercel.app/",
 			"github": "https://github.com/romain-billot/gitDiffSummarize",
 			"sample": "/samples/gitDiffSummarize.mp4",
 			"sampleBackground": "#020617",
-			"hosting": [
-				"Vercel"
-			]
+			"hosting": ["Vercel"]
 		}
 	],
 	"work": [
 		{
 			"name": "Fastercom",
 			"position": "Développeur Intégrateur de Solutions",
-			"location_type": "Hybride",
 			"location": "Montréal",
 			"url": "https://www.fastercom.app/fr-fr",
 			"startDate": "2025-08",
@@ -496,18 +188,11 @@
 				"Amélioration des performances et de la robustesse des solutions existantes.",
 				"Participation à l'architecture des systèmes avec les équipes projet."
 			],
-			"achievements": null,
-			"skills": [
-				"JavaScript",
-				"PostgreSQL",
-				"n8n",
-				"GitLab"
-			]
+			"skills": ["JavaScript", "PostgreSQL", "n8n", "GitLab"]
 		},
 		{
 			"name": "Festival Jouissif Montréal",
 			"position": "Développeur Full-stack (mission)",
-			"location_type": "Télétravail",
 			"location": "Québec",
 			"url": "https://festivaljouissif.ca/",
 			"startDate": "2025-04",
@@ -520,92 +205,50 @@
 				"Intégration du paiement via Stripe, incluant la facturation et la validation des inscriptions.",
 				"Administration des contenus liés aux événements via une interface dédiée."
 			],
-			"achievements": [
-				"Collaboration étroite avec l'organisateur du festival pour adapter l'outil aux besoins.",
-				"Automatisation complète du processus d'inscription des exposants (gain de temps significatif pour l'organisateur).",
-				"Tests automatisés pour assurer la fiabilité du code et la qualité des fonctionnalités.",
-				"Déploiement de l'application sur un hébergeur."
-			],
-			"skills": [
-				"Vue.js",
-				"Laravel",
-				"Inertia.js",
-				"Tailwind CSS",
-				"PostgreSQL",
-				"Coolify"
-			]
+			"skills": ["Vue.js", "Laravel", "Inertia.js", "Tailwind CSS", "PostgreSQL", "Coolify"]
 		},
 		{
 			"name": "Nicoya",
 			"position": "Développeur Full-stack (stage)",
-			"location_type": "Télétravail",
 			"location": "Québec",
 			"url": "https://nicoyacoop.com/",
 			"startDate": "2025-01",
 			"endDate": "2025-03",
 			"summary": "Développement et intégration de fonctionnalités pour une plateforme de prise de rendez-vous en ligne pour des professionnels de la santé, incluant gestion des dossiers clients, paiement en ligne, et messagerie intégrée.",
-			"highlights": null,
 			"responsibilities": [
 				"Implémenter un système de filtrage avancé pour permettre aux utilisateurs de trouver des professionnels adaptés à leurs besoins.",
 				"Afficher la page de profil des professionnels avec des informations détaillées et des avis clients.",
 				"Développer des fonctionnalités pour gérer la prise de rendez-vous en ligne avec des professionnels.",
 				"Configurer l'intégration de Stripe pour les paiements en ligne sécurisés, incluant la gestion des commissions."
 			],
-			"achievements": [
-				"Reprise et refonte du code existant pour améliorer la maintenabilité et la flexibilité.",
-				"Implémentation de tests automatisés et d'un pipeline d'intégration continue pour assurer la fiabilité du code.",
-				"Collaboration efficace avec l'équipe, y compris à distance, pour assurer une bonne coordination des tâches."
-			],
-			"skills": [
-				"Laravel",
-				"GitHub",
-				"API Stripe"
-			]
+			"skills": ["Laravel", "GitHub", "API Stripe"]
 		},
 		{
 			"name": "BRP",
 			"position": "Concepteur mécanique",
-			"location_type": "Hybride",
 			"location": "Sherbrooke, Québec",
 			"url": "https://can-am.brp.com/off-road/ca/fr/",
 			"startDate": "2015-11",
 			"endDate": "2023-08",
 			"summary": "Conception, développement et validation de systèmes mécaniques de véhicules récréatifs.",
-			"highlights": null,
 			"responsibilities": [
 				"Réaliser la modélisation complète des pièces et dessins techniques lors du développement de véhicules de la phase prototype jusqu'à la mise en production.",
 				"Supporter l'atelier pour l'assemblage, le diagnostic et la validation des véhicules prototypes.",
 				"Collaborer avec les concepteurs et ingénieurs à la conception et la réalisation de nouvelles pièces, de nouveaux systèmes et de nouveaux véhicules.",
 				"Collaborer avec les fournisseurs et les équipes du design, de la production, des achats et de l'assurance qualité."
 			],
-			"achievements": [
-				"Développement de nouveaux véhicules lancés avec succès sur le marché, répondant aux exigences de qualité et de performance.",
-				"Développement d'outils d'automatisation pour la modélisation et la conception mécanique."
-			],
-			"skills": [
-				"CAO",
-				"Catia V5",
-				"VBA"
-			],
+			"skills": ["CAO", "Catia V5", "VBA"],
 			"dim": false
 		},
 		{
 			"name": "Plast Concept",
 			"position": "Dessinateur mécanique",
-			"location_type": "Sur site",
 			"location": "France",
 			"url": null,
 			"startDate": "2011-09",
 			"endDate": "2015-08",
 			"summary": "Conception et modélisation de pièces plastiques pour l'industrie automobile.",
-			"highlights": null,
-			"responsibilities": null,
-			"achievements": null,
-			"skills": [
-				"CAO",
-				"Catia V5",
-				"VBA"
-			],
+			"skills": ["CAO", "Catia V5", "VBA"],
 			"dim": false
 		}
 	]

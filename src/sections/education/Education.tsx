@@ -1,6 +1,6 @@
 import type {ReactNode} from "react";
-import cv from "../../lib/cv";
-import {Section} from "../../ui/Section";
+import cv from "@/lib/cv";
+import {Section} from "@/ui/Section";
 import {EducationItem} from "./EducationItem";
 
 function SubSection({title, children}: { title: string; children: ReactNode }) {

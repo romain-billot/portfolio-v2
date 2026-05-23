@@ -1,10 +1,12 @@
 import {useState} from "react";
-import cv from "../../lib/cv";
+import cv from "@/lib/cv";
+import {useEscape} from "@/hooks/useEscape";
 import {CV_PDF, NAV_LINKS} from "./links";
 import {MobileMenu} from "./MobileMenu";
 
 export function Nav() {
     const [open, setOpen] = useState(false);
+    useEscape(() => setOpen(false), open);
 
     return (
         <>

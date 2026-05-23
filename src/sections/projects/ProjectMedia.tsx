@@ -1,4 +1,4 @@
-import type {Project} from "@/lib/types.ts";
+import type {Project} from "@/lib/types";
 
 type Props = { project: Project };
 

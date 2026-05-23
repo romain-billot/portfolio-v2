@@ -1,5 +1,5 @@
-import cv from "../../lib/cv";
-import {Section} from "../../ui/Section";
+import cv from "@/lib/cv";
+import {Section} from "@/ui/Section";
 import {ProjectCard} from "./ProjectCard";
 
 type Props = { onOpen: (index: number) => void };

@@ -1,4 +1,4 @@
-import cv from "../../lib/cv";
+import cv from "@/lib/cv";
 
 export function Footer() {
 	return (

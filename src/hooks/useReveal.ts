@@ -1,5 +1,8 @@
 import {useEffect, useRef, type RefObject} from "react";
 
+const REVEAL_MAX_STAGGER = 6;
+const REVEAL_STAGGER_MS = 60;
+
 export function useReveal<T extends HTMLElement>(
 	opts: { threshold?: number; delayIndex?: number } = {},
 ): RefObject<T | null> {
@@ -11,7 +14,7 @@ export function useReveal<T extends HTMLElement>(
 		if (!el) return;
 		el.classList.add("reveal");
 		if (delayIndex > 0) {
-			el.style.transitionDelay = `${(delayIndex % 6) * 60}ms`;
+			el.style.transitionDelay = `${(delayIndex % REVEAL_MAX_STAGGER) * REVEAL_STAGGER_MS}ms`;
 		}
 
 		const obs = new IntersectionObserver(

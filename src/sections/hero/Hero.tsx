@@ -1,4 +1,4 @@
-import cv from "../../lib/cv";
+import cv from "@/lib/cv";
 import {HeroIdentity} from "./HeroIdentity";
 import {HeroPhoto} from "./HeroPhoto";
 import {HeroBio} from "./HeroBio";

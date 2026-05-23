@@ -21,7 +21,6 @@ export type Basics = {
 	url: string;
 	summary: string[];
 	description: string;
-	theme?: string;
 	location: Location;
 	profiles: Profile[];
 };
@@ -44,7 +43,6 @@ export type Education = {
 
 export type Skill = {
 	name: string;
-	level: string;
 	category?: string;
 	keywords: string[];
 	dim?: boolean;
@@ -75,7 +73,6 @@ export type Work = {
 	startDate: string;
 	endDate: string | null;
 	summary?: string;
-	highlights?: string[] | null;
 	responsibilities?: string[] | null;
 	skills?: string[];
 	dim?: boolean;

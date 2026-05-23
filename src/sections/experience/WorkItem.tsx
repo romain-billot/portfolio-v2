@@ -1,9 +1,9 @@
 import {useState} from "react";
-import type {Work} from "../../lib/types";
-import {formatDateRange} from "../../lib/format";
-import {Tag} from "../../ui/Tag";
-import {CircleButton} from "../../ui/CircleButton";
-import {RevealOnScroll} from "../../ui/RevealOnScroll";
+import type {Work} from "@/lib/types";
+import {formatDateRange} from "@/lib/format";
+import {Tag} from "@/ui/Tag";
+import {CircleButton} from "@/ui/CircleButton";
+import {RevealOnScroll} from "@/ui/RevealOnScroll";
 
 type Props = { work: Work; index: number };
 
@@ -16,7 +16,7 @@ export function WorkItem({work, index}: Props) {
 			index={index}
 			className={
 				"cursor-pointer group/xp grid grid-cols-[200px_1fr] items-start gap-8 border-b border-border pt-4 pb-7.5 transition-opacity max-md:grid-cols-1 max-md:gap-2 max-md:pt-3 max-md:pb-6" +
-				(dim ? " opacity-35 hover:opacity-100" + (open ? " opacity-100" : "") : "")
+				(dim ? (open ? " opacity-100" : " opacity-35 hover:opacity-100") : "")
 			}
 		>
 			<div
@@ -24,7 +24,6 @@ export function WorkItem({work, index}: Props) {
 				tabIndex={0}
 				onClick={() => setOpen((o) => !o)}
 				onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setOpen((o) => !o)}
-				
 				className="contents text-left"
 				aria-expanded={open}
 				aria-label={work.position}

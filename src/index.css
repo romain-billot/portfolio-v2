@@ -149,9 +149,7 @@
             cursor: pointer;
         }
     }
-}
 
-@layer components {
     .highlight-flare {
         position: relative;
         border-radius: 1rem;

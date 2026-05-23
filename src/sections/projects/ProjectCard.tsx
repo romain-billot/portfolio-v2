@@ -1,8 +1,8 @@
-import type {Project} from "@/lib/types.ts";
-import {Tag} from "../../ui/Tag";
-import {RevealOnScroll} from "../../ui/RevealOnScroll";
+import type {Project} from "@/lib/types";
+import {Tag} from "@/ui/Tag";
+import {RevealOnScroll} from "@/ui/RevealOnScroll";
 import {ProjectMedia} from "./ProjectMedia";
-import {StatusBadge} from "../../ui/StatusBadge";
+import {StatusBadge} from "@/ui/StatusBadge";
 
 type Props = {
 	project: Project;
@@ -31,7 +31,7 @@ export function ProjectCard({project, index, onOpen}: Props) {
 						<h3 className="text-3xl font-semibold leading-tight tracking-tight max-md:text-2xl whitespace-nowrap">
 							{project.name}
 						</h3>
-						<StatusBadge active={project.isActive} />
+						<StatusBadge active={project.isActive}/>
 					</div>
 					<p className="mb-5 max-w-md text-sm leading-[1.65] text-muted">
 						{project.description}

@@ -1,5 +1,5 @@
-import {sortWorkByDate} from "@/lib/cv.ts";
-import {Section} from "../../ui/Section";
+import {sortWorkByDate} from "@/lib/cv";
+import {Section} from "@/ui/Section";
 import {WorkItem} from "./WorkItem";
 
 export function Experience() {

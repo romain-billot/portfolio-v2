@@ -1,5 +1,5 @@
-import {groupSkillsByCategory} from "@/lib/cv.ts";
-import {Section} from "../../ui/Section";
+import {groupSkillsByCategory} from "@/lib/cv";
+import {Section} from "@/ui/Section";
 import {SkillColumn} from "./SkillColumn";
 
 export function Skills() {

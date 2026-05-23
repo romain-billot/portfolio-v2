@@ -1,10 +1,10 @@
-import {RevealOnScroll} from "../../ui/RevealOnScroll";
+import {RevealOnScroll} from "@/ui/RevealOnScroll";
 
 type Props = { title: string; skills: string[]; dim?: boolean };
 
 export function SkillColumn({title, skills, dim = false}: Props) {
 	return (
-		<RevealOnScroll className={dim ? "opacity-35" : ""}>
+		<RevealOnScroll className={dim ? "opacity-35 transition-opacity hover:opacity-100" : ""}>
 			<h3 className="mb-5 text-center text-xs font-medium uppercase tracking-[0.16em] text-muted">
 				{title}
 			</h3>

@@ -1,10 +1,10 @@
 import {useEffect, useRef} from "react";
-import type {Project} from "@/lib/types.ts";
-import {Button} from "../../ui/Button";
-import {GitHubIcon} from "../../ui/icons/GitHubIcon";
-import {StatusBadge} from "../../ui/StatusBadge";
-import {Tag} from "../../ui/Tag";
-import {CircleButton} from "../../ui/CircleButton";
+import type {Project} from "@/lib/types";
+import {Button} from "@/ui/Button";
+import {GitHubIcon} from "@/ui/icons/GitHubIcon";
+import {StatusBadge} from "@/ui/StatusBadge";
+import {Tag} from "@/ui/Tag";
+import {CircleButton} from "@/ui/CircleButton";
 import {ProjectDrawerCols} from "./ProjectDrawerCols";
 
 type Props = {
@@ -54,7 +54,7 @@ export function ProjectDrawer({project, onClose}: Props) {
 				aria-label={project?.name ?? "Projet"}
 				aria-hidden={!open}
 			>
-				 {project && (
+				{project && (
 					<>
 						<div className="mb-9 flex items-center justify-between">
 							<span className="text-xs uppercase tracking-[0.16em] text-muted">{meta}</span>
@@ -93,7 +93,6 @@ export function ProjectDrawer({project, onClose}: Props) {
 					</>
 				)}
 			</aside>
-
 		</>
 	);
 }
