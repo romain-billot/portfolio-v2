@@ -6,7 +6,7 @@
     "email": "romain@billot.xyz",
     "phone": null,
     "url": "romain.billot.xyz",
-    "summary": "Après 12 ans en conception mécanique, je me suis reconverti via une formation dont je suis sorti major de promo. J'avais découvert la programmation des années plus tôt en automatisant la modélisation 3D de pièces en VBA. Curieux, attaché à la qualité du code, j'intègre l'IA à mon flux de travail : je brainstorme et délègue avec elle, parfois je vibecode, mais je garde toujours les commandes.",
+    "summary": "Après 12 ans en conception mécanique, je me suis reconverti via une formation dont je suis sorti major de promo. J'avais découvert la programmation des années plus tôt en automatisant la modélisation 3D de pièces en VBA. Curieux, attaché à la qualité du code, j'intègre l'IA intelligemment à mon flux de travail.",
     "description": "Développeur animé par l'exploration des dernières technologies et les applications web.",
     "location": {
       "address": "",
@@ -35,7 +35,7 @@
     },
     {
       "title": "Application client en prod",
-      "detail": "Première application développée dès la fin de ma formation : gestion des inscriptions, contrats et paiements pour près de 100 participants à chaque festival"
+      "detail": "Première application développée dès la fin de ma formation : Gestionnaire de marchés pour un festival."
     }
   ],
   "education": [
@@ -277,9 +277,9 @@
       "isActive": false,
       "year": "2026",
       "kind": "Projet personnel",
-      "description": "Moteur de recommandation de jeux de société à partir de 1 à 4 jeux que l'utilisateur aime.",
-      "context": "Application web née d'un constat personnel : en tant que joueur, il est difficile de savoir si un jeu récemment sorti va vraiment me plaire. Boardmatch part de 1 à 4 jeux que l'utilisateur connaît et apprécie, puis lui recommande les titres les plus pertinents parmi une base de ~2000 jeux récents indexés avec leurs mécaniques, thèmes, familles et complexité.",
-      "challenges": "Conception d'un algorithme de similarité qui combine des pondérations fixes par feature (la mécanique pèse plus que le thème) avec des règles dynamiques déclenchées par les patterns détectés dans les jeux d'entrée. Exemple : si les jeux fournis sont tous coopératifs, l'algo doit comprendre que ce trait devient un critère structurant.",
+      "description": "Moteur de recommandation de jeux de société à partir des préférences de l'utilisateur.",
+      "context": "Application web née d'un constat personnel : en tant que joueur, il est difficile de savoir si un jeu récemment sorti va vraiment me plaire. Boardmatch part de 1 à 4 jeux que l'utilisateur connaît et apprécie, puis lui recommande les titres les plus pertinents parmi une base d'environ 2000 jeux récents indexés avec leurs mécaniques, thèmes, familles et complexité.",
+      "challenges": "Conception d'un algorithme de similarité qui combine des pondérations fixes par feature (la mécanique pèse plus que le thème) avec des règles dynamiques déclenchées par les patterns détectés dans les jeux d'entrée. Exemple : si les jeux fournis sont tous coopératifs, l'algorithme doit intégrer ce trait comme un critère structurant.",
       "learnings": "Conception d'un algorithme de scoring multi-critères et arbitrage entre logique de contenu et règles métier. Modélisation d'une base relationnelle dense (mécaniques, thèmes, familles, éditions, langues).",
       "skills": [
         "Next.js",
@@ -302,9 +302,9 @@
       "isActive": true,
       "year": "2026",
       "kind": "Projet personnel",
-      "description": "Portfolio développeur. Design simple et données centralisées dans un fichier JSON unique pour faciliter les mises à jour.",
+      "description": "Design simple et données centralisées dans un fichier JSON unique pour faciliter les mises à jour.",
       "context": "Refonte de mon portfolio pour pratiquer React et Typescript, suite à une formation continue suivie au Collège Ahuntsic.",
-      "challenges": "Choix d'une stack volontairement légère (React + Vite) plutôt que Next.js, jugé surdimensionné pour une page vitrine. Centralisation de toutes les données projets dans un fichier JSON unique pour faciliter les mises à jour, plutôt qu'un contenu codé en dur dans le JSX.",
+      "challenges": "Choix d'une stack volontairement légère (React + Vite) plutôt que Next.js. Centralisation de toutes les données projets dans un fichier JSON unique pour faciliter les mises à jour, plutôt qu'un contenu codé en dur dans le JSX.",
       "learnings": "Mise en pratique de React et Typescript après la formation.",
       "skills": [
         "React",
@@ -326,7 +326,7 @@
       "year": "2025",
       "kind": "Mission client",
       "description": "Gestionnaire de marchés pour le Festival Jouissif Montréal. Inscriptions, paiements, signature électronique.",
-      "context": "Mission réalisée pour un ami organisateur du festival, entre la fin de mon stage et mon premier emploi. Avant l'app, la gestion se faisait à la main : Google Form pour les inscriptions, informations recopiées dans un dans un Google Sheet, contrats et mails envoyés un par un. Avec un festival qui grossissait chaque année, le besoin d'automatisation devenait urgent. L'app est en production et a permis de gérer les inscriptions des 78 exposants de l'édition de juin 2026.",
+      "context": "Mission réalisée pour un organisateur de festival dès la fin de mes études. Avant l'app, la gestion se faisait à la main : Google Form pour les inscriptions, informations recopiées dans un Google Sheet, contrats et mails envoyés un par un. Avec un festival qui grossissait chaque année, le besoin d'automatisation devenait urgent. L'app est en production et a permis de gérer les inscriptions des 78 exposants de l'édition de juin 2026.",
       "challenges": "Automatisation complète du flux exposant : inscription, génération de contrat, signature électronique, paiement Stripe et envoi des reçus, sans intervention manuelle. Conception d'une architecture modulaire inspirée du DDD pour absorber la complexité métier, avec une couche d'abstraction sur les services externes (paiement, génération PDF, correction et traduction automatique via OpenAI) pour rester indépendant des outils.",
       "learnings": "Traduction d'un besoin métier flou en une architecture concrète, en dialogue direct avec un client non-technique. Approfondissement de la stack Laravel + Inertia + Vue, choisie pour mutualiser la validation des inputs entre back et front. Première expérience d'un projet livré en prod et utilisé en conditions réelles.",
       "skills": [
@@ -351,8 +351,8 @@
       "year": "2025",
       "kind": "Projet académique",
       "description": "Planificateur familial. Calendrier partagé, gestion des tâches du quotidien et liste de courses synchronisée.",
-      "context": "Projet de fin d'études né d'un besoin perso : centraliser l'organisation d'un foyer (calendrier, tâches, courses) dans une seule app synchronisée entre ses membres. Un projet qui couvre les fondamentaux attendus d'une app full-stack moderne: authentification, CRUD partagé, synchronisation multi-utilisateurs.",
-      "challenges": "Mise en place de l'authentification JWT de bout en bout : comprendre le fonctionnement (access token, refresh, expiration). Configuration du déploiement continu sur Vercel via GitHub Actions, frontend et backend Express compris.",
+      "context": "Projet de fin d'études : centraliser l'organisation d'un foyer (calendrier, tâches, courses) dans une seule application, couvrant les fondamentaux attendus d'une application full-stack moderne : authentification, CRUD partagé, synchronisation multi-utilisateurs.",
+      "challenges": "Comprendre et mettre en place l'authentification JWT de bout en bout (access token, refresh, expiration). Configuration du déploiement continu sur Vercel via GitHub Actions.",
       "learnings": "Construction d'une stack Vue + Express de A à Z. Découverte de PrimeVue (bibliothèque de composants UI pour Vue) et de Tailwind CSS.",
       "skills": [
         "Vue.js",
