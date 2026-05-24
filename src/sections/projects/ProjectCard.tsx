@@ -33,7 +33,7 @@ export function ProjectCard({project, index, onOpen}: Props) {
 						</h3>
 						<StatusBadge active={project.isActive}/>
 					</div>
-					<p className="mb-5 max-w-md text-sm leading-[1.65] text-muted">
+					<p className="mb-5 max-w-md text-sm leading-[1.65] text-muted min-h-[3.3em]">
 						{project.description}
 					</p>
 					{project.skills && project.skills.length > 0 && (
