@@ -49,7 +49,14 @@
       "studyType": "AEC",
       "startDate": "2023-09",
       "endDate": "2025-03",
-      "honors": "Prix d'excellence scolaire"
+      "honors": "Prix d'excellence scolaire",
+      "bullets": [
+        "Développement d'applications Web et natives",
+        "Conception et développement de bases de données SQL",
+        "Programmation orientée objet",
+        "Développement d'applications réseau et serveur",
+        "Assurance du contrôle de la qualité des applications"
+      ]
     },
     {
       "id": "education-iut-nantes",
@@ -60,7 +67,12 @@
       "startDate": "2008-09",
       "endDate": "2011-06",
       "honors": null,
-      "dim": false
+      "dim": false,
+      "bullets": [
+        "Conception de produit",
+        "Développement des procédés de fabrication",
+        "Organisation des lignes de production"
+      ]
     }
   ],
   "continuing-education": [
@@ -70,7 +82,12 @@
       "url": "https://www.collegeahuntsic.qc.ca/formation-continue/perfectionnement-professionnel/techniques-et-outils-modernes-pour-le-developpement-web-react",
       "area": "Techniques et outils modernes pour le développement Web - React et Next.js",
       "startDate": "2025-03",
-      "endDate": "2025-03"
+      "endDate": "2025-03",
+      "bullets": [
+        "Développement front-end avec React, Next.js et TypeScript",
+        "Stylisation d'interfaces avec Tailwind CSS et Material UI",
+        "Rendu côté serveur (SSR), routage et déploiement d'applications web modernes"
+      ]
     }
   ],
   "skills": [

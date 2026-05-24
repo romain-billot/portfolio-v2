@@ -41,6 +41,7 @@ export type Education = {
 	endDate: string | null;
 	honors?: string | null;
 	dim?: boolean;
+	bullets?: string[];
 };
 
 export type Skill = {
