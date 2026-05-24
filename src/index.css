@@ -183,7 +183,7 @@
             var(--color-accent) 15%,
             transparent 30%
         );
-        animation: flare-spin 4s linear infinite;
+        animation: flare-spin 8s linear infinite;
     }
 
     .highlight-flare-inner {
