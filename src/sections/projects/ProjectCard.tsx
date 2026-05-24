@@ -15,7 +15,7 @@ export function ProjectCard({project, index, onOpen}: Props) {
 	const year = project.year ?? "";
 
 	return (
-		<RevealOnScroll index={index}>
+		<RevealOnScroll index={index} id={project.id}>
 			<button
 				type="button"
 				onClick={onOpen}

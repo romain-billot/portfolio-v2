@@ -29,7 +29,7 @@ export function Hero() {
 				</div>
 				{cv.highlights.map((h) => (
 					<div key={h.title} className="flex-1 min-w-0">
-						<HeroHighlight title={h.title} detail={h.detail}/>
+						<HeroHighlight title={h.title} detail={h.detail} href={h.href}/>
 					</div>
 				))}
 			</div>

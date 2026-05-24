@@ -31,15 +31,18 @@
   "highlights": [
     {
       "title": "Distinction académique",
-      "detail": "Prix d'excellence scolaire \nAEC Programmation d'applications"
+      "detail": "Prix d'excellence scolaire \nAEC Programmation d'applications",
+      "href": "#education-cegep-sherbrooke"
     },
     {
       "title": "Application client en prod",
-      "detail": "Première application développée dès la fin de ma formation : Gestionnaire de marchés pour un festival."
+      "detail": "Première application développée dès la fin de ma formation : Gestionnaire de marchés pour un festival.",
+      "href": "#project-fjm"
     }
   ],
   "education": [
     {
+      "id": "education-cegep-sherbrooke",
       "institution": "Cégep de Sherbrooke",
       "url": "https://cegepsherbrooke.qc.ca/formations/aec/programmation-dapplications/",
       "area": "Programmation d'applications",
@@ -49,6 +52,7 @@
       "honors": "Prix d'excellence scolaire"
     },
     {
+      "id": "education-iut-nantes",
       "institution": "IUT de Nantes (France)",
       "url": "https://iutnantes.univ-nantes.fr/formations/bachelor-iut-bac3/but-gmp",
       "area": "Génie Mécanique et Productique",
@@ -61,6 +65,7 @@
   ],
   "continuing-education": [
     {
+      "id": "education-cegep-ahuntsic",
       "institution": "Cégep Ahuntsic",
       "url": "https://www.collegeahuntsic.qc.ca/formation-continue/perfectionnement-professionnel/techniques-et-outils-modernes-pour-le-developpement-web-react",
       "area": "Techniques et outils modernes pour le développement Web - React et Next.js",
@@ -273,6 +278,7 @@
   ],
   "projects": [
     {
+      "id": "project-boardmatch",
       "name": "Boardmatch",
       "isActive": false,
       "year": "2026",
@@ -298,6 +304,7 @@
       ]
     },
     {
+      "id": "project-portfolio",
       "name": "Portfolio",
       "isActive": true,
       "year": "2026",
@@ -321,6 +328,7 @@
       ]
     },
     {
+      "id": "project-fjm",
       "name": "Application FJM",
       "isActive": true,
       "year": "2025",
@@ -346,6 +354,7 @@
       ]
     },
     {
+      "id": "project-plantogether",
       "name": "PlanTogether",
       "isActive": true,
       "year": "2025",
@@ -370,6 +379,7 @@
       ]
     },
     {
+      "id": "project-gitdiffsummarize",
       "name": "GitDiffSummarize",
       "isActive": true,
       "year": "2024",

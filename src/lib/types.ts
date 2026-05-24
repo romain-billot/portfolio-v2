@@ -28,9 +28,11 @@ export type Basics = {
 export type Highlight = {
 	title: string;
 	detail: string;
+	href?: string;
 };
 
 export type Education = {
+	id?: string;
 	institution: string;
 	url?: string;
 	area: string;
@@ -49,6 +51,7 @@ export type Skill = {
 };
 
 export type Project = {
+	id?: string;
 	name: string;
 	isActive: boolean;
 	year?: string;

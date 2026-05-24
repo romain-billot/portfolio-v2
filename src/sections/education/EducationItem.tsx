@@ -8,6 +8,7 @@ export function EducationItem({edu, index}: Props) {
 	return (
 		<RevealOnScroll
 			index={index}
+			id={edu.id}
 			className={
 				"grid grid-cols-[200px_1fr_auto] items-center gap-8 border-b border-border pt-4 pb-6.5 max-md:grid-cols-1 max-md:gap-1.5 max-md:pt-3 max-md:pb-[22px]" +
 				(edu.dim ? " opacity-35 transition-opacity hover:opacity-100" : "")
