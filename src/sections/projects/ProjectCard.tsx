@@ -19,7 +19,7 @@ export function ProjectCard({project, index, onOpen}: Props) {
 			<button
 				type="button"
 				onClick={onOpen}
-				className="w-full cursor-pointer overflow-hidden rounded-2xl border border-border bg-bg-2 text-left transition-colors hover:border-accent"
+				className="w-full cursor-pointer overflow-hidden rounded-2xl border border-border bg-bg-2 text-left transition-colors hover:border-accent active:border-accent"
 			>
 				<ProjectMedia project={project}/>
 				<div className="px-7 pt-7 pb-8">
@@ -43,6 +43,7 @@ export function ProjectCard({project, index, onOpen}: Props) {
 							))}
 						</div>
 					)}
+					<div className="mt-5 text-right text-muted min-[900px]:hidden">→</div>
 				</div>
 			</button>
 		</RevealOnScroll>
