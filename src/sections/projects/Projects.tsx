@@ -8,7 +8,7 @@ export function Projects({onOpen}: Props) {
 	const projects = cv.projects;
 	return (
 		<Section id="projects" title="Projets">
-			<div className="grid grid-cols-2 gap-10 max-md:grid-cols-1">
+			<div className="grid grid-cols-2 gap-10 max-[1230px]:grid-cols-1">
 				{projects.map((p, i) => (
 					<ProjectCard
 						key={p.name}
