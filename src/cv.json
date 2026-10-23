@@ -403,17 +403,16 @@
   "work": [
     {
       "name": "Fastercom",
-      "position": "Développeur Intégrateur de Solutions",
+      "position": "Développeur Intégrateur de Solutions Principal",
       "location": "Montréal",
       "url": "https://www.fastercom.app/fr-fr",
       "startDate": "2025-08",
       "endDate": null,
-      "summary": "Déploiement, configuration et développement de solutions logicielles TMS (Transport Management System) pour optimiser le transport routier des clients.",
+      "summary": "Développement de solutions logicielles TMS (Transport Management System) pour optimiser le transport routier des clients. Tech lead sur un projet client majeur.",
       "responsibilities": [
-        "Déploiement et configuration de solutions TMS.",
-        "Développement de fonctionnalités pour optimiser le transport routier des clients.",
-        "Amélioration des performances et de la robustesse des solutions existantes.",
-        "Participation à l'architecture des systèmes avec les équipes projet."
+        "Tech lead d'un projet : définition des conventions de code, code review, intégration des outils de développement, mise en place des pipelines de déploiement et des tests d'intégration.",
+        "Développement de fonctionnalités.",
+        "Amélioration des performances et de la robustesse des solutions existantes."
       ],
       "skills": [
         "JavaScript",
