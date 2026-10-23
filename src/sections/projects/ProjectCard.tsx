@@ -15,11 +15,11 @@ export function ProjectCard({project, index, onOpen}: Props) {
 	const year = project.year ?? "";
 
 	return (
-		<RevealOnScroll index={index} id={project.id}>
+		<RevealOnScroll index={index} id={project.id} className="h-full">
 			<button
 				type="button"
 				onClick={onOpen}
-				className="w-full cursor-pointer overflow-hidden rounded-2xl border border-border bg-bg-2 text-left transition-colors hover:border-accent active:border-accent"
+				className="flex h-full w-full flex-col cursor-pointer overflow-hidden rounded-2xl border border-border bg-bg-2 text-left transition-colors hover:border-accent active:border-accent"
 			>
 				<ProjectMedia project={project}/>
 				<div className="px-7 pt-7 pb-8">
