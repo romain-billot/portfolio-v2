@@ -300,16 +300,20 @@
       "isActive": false,
       "year": "2026",
       "kind": "Projet personnel",
-      "description": "Moteur de recommandation de jeux de société à partir des préférences de l'utilisateur.",
-      "context": "Application web née d'un constat personnel : en tant que joueur, il est difficile de savoir si un jeu récemment sorti va vraiment me plaire. Boardmatch part de 1 à 4 jeux que l'utilisateur connaît et apprécie, puis lui recommande les titres les plus pertinents parmi une base d'environ 2000 jeux récents indexés avec leurs mécaniques, thèmes, familles et complexité.",
-      "challenges": "Conception d'un algorithme de similarité qui combine des pondérations fixes par feature (la mécanique pèse plus que le thème) avec des règles dynamiques déclenchées par les patterns détectés dans les jeux d'entrée. Exemple : si les jeux fournis sont tous coopératifs, l'algorithme doit intégrer ce trait comme un critère structurant.",
-      "learnings": "Conception d'un algorithme de scoring multi-critères et arbitrage entre logique de contenu et règles métier. Modélisation d'une base relationnelle dense (mécaniques, thèmes, familles, éditions, langues).",
+      "description": "Recommandations de jeux de société, avis personnalisés et alertes de sortie selon les goûts de l'utilisateur.",
+      "context": "Application web née d'un constat personnel : en tant que joueur, il est difficile de savoir si un jeu récemment sorti va vraiment me plaire. Boardmatch aide à faire ce choix : il propose des jeux proches d'un titre que l'on aime, ou adaptés aux réponses d'un court questionnaire, parmi un catalogue de plus de 4 000 jeux. Il estime aussi si un jeu précis va nous plaire à partir de nos jeux favoris, et prévient dès qu'une nouveauté correspondant à nos goûts sort.",
+      "challenges": "Combiner recherche par similarité et IA pour obtenir des recommandations vraiment pertinentes. Les jeux sont d'abord présélectionnés par proximité, puis un modèle de langage affine le classement et un second en contrôle la qualité. Chaque tâche est confiée au modèle le plus adapté, selon son coût et la qualité attendue.",
+      "learnings": "Trouver le bon algorithme a demandé plusieurs itérations avant d'aboutir à un enchaînement de modèles d'IA, du plus rapide au plus fin. Le projet m'a appris à choisir le bon modèle pour chaque tâche, à maîtriser les coûts et à vérifier la fiabilité des résultats par la mesure plutôt que par l'intuition.",
       "skills": [
-        "Next.js",
+        "Laravel",
+        "React",
+        "Inertia.js",
         "TypeScript",
         "Tailwind CSS",
-        "Laravel",
         "PostgreSQL",
+        "OpenAI",
+        "Jev",
+        "Deepseek",
         "n8n"
       ],
       "url": null,
@@ -391,29 +395,6 @@
       "github": "https://github.com/romain-billot/planTogether-web",
       "sample": "/samples/planTogether.png",
       "sampleBackground": "#ffffff",
-      "hosting": [
-        "Vercel"
-      ]
-    },
-    {
-      "id": "project-gitdiffsummarize",
-      "name": "GitDiffSummarize",
-      "isActive": true,
-      "year": "2024",
-      "kind": "Projet personnel",
-      "description": "Outil web de génération de messages de commit à partir d'un git diff, via l'API OpenAI.",
-      "context": "Projet créé pendant mes études, à la fois pour m'initier à React et Next.js et pour répondre à un besoin concret partagé avec d'autres étudiants : produire rapidement des messages et des descriptions de commit clairs. À l'époque, les IDE ne proposaient pas encore ce type de fonctionnalité.",
-      "challenges": "Premier projet React/Next.js. Construire un prompt qui produise des messages de commit cohérents et exploitables.",
-      "learnings": "Fondamentaux React et Next.js. Intégration d'une API IA dans une app web. Conception d'une UI simple et efficace pour un cas d'usage précis.",
-      "skills": [
-        "Next.js",
-        "React",
-        "Tailwind CSS"
-      ],
-      "url": "https://gitdiffsummarize.vercel.app/",
-      "github": "https://github.com/romain-billot/gitDiffSummarize",
-      "sample": "/samples/gitDiffSummarize.mp4",
-      "sampleBackground": "#020617",
       "hosting": [
         "Vercel"
       ]
