@@ -246,6 +246,16 @@
       ]
     },
     {
+      "name": "GitLab CI",
+      "category": "Données + DevOps",
+      "keywords": [
+        "CI/CD",
+        "Automation",
+        "Pipeline",
+        "DevOps"
+      ]
+    },
+    {
       "name": "n8n",
       "category": "Données + DevOps",
       "keywords": [
