@@ -69,6 +69,8 @@ export type Project = {
 	hosting?: string[];
 };
 
+export type Responsibility = string | { title: string; items: string[] };
+
 export type Work = {
 	name: string;
 	position: string;
@@ -77,7 +79,7 @@ export type Work = {
 	startDate: string;
 	endDate: string | null;
 	summary?: string;
-	responsibilities?: string[] | null;
+	responsibilities?: Responsibility[] | null;
 	skills?: string[];
 	dim?: boolean;
 };

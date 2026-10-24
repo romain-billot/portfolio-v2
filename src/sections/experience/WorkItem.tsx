@@ -55,9 +55,20 @@ export function WorkItem({work, index}: Props) {
 							{work.summary && <p>{work.summary}</p>}
 							{work.responsibilities && work.responsibilities.length > 0 && (
 								<ul className="mt-3 list-disc space-y-1 pl-5">
-									{work.responsibilities.map((r) => (
-										<li key={r}>{r}</li>
-									))}
+									{work.responsibilities.map((r) =>
+										typeof r === "string" ? (
+											<li key={r}>{r}</li>
+										) : (
+											<li key={r.title}>
+												{r.title}
+												<ul className="mt-1 list-[circle] space-y-1 pl-5">
+													{r.items.map((i) => (
+														<li key={i}>{i}</li>
+													))}
+												</ul>
+											</li>
+										),
+									)}
 								</ul>
 							)}
 							{work.skills && work.skills.length > 0 && (

@@ -410,7 +410,25 @@
       "endDate": null,
       "summary": "Développement de solutions logicielles TMS (Transport Management System) pour optimiser le transport routier des clients. Tech lead sur un projet client majeur.",
       "responsibilities": [
-        "Tech lead d'un projet : définition des conventions de code, architecture, code review, intégration des outils de développement, mise en place des pipelines de déploiement et des tests fonctionnels.",
+        {
+          "title": "Tech lead d'un projet :",
+          "items": [
+            "Définition de l'architecture et des conventions de code.",
+            "Code review.",
+            "Intégration des outils de développement.",
+            "Mise en place d'un environnement de tests avec tests fonctionnels.",
+            "Implémentation des pipelines de déploiement.",
+            "Gestion des cycles de releases."
+          ]
+        },
+        {
+          "title": "Gestion de projets :",
+          "items": [
+            "Évaluation des priorités.",
+            "Assignation des ressources aux projets.",
+            "Suivi des tâches des développeurs."
+          ]
+        },
         "Développement de fonctionnalités.",
         "Amélioration des performances et de la robustesse des solutions existantes."
       ],
