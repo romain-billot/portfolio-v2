@@ -11,6 +11,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Romain Billot" />
     <meta property="og:url" content="https://romain.billot.xyz/" />
     <meta property="og:title" content="Romain Billot — Développeur Full Stack" />
     <meta property="og:description" content="Développeur Full Stack basé au Québec. Reconverti après 12 ans en ingénierie mécanique, prix d'excellence AEC." />
@@ -25,6 +26,42 @@
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href="https://romain.billot.xyz/" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://romain.billot.xyz/#website",
+            "url": "https://romain.billot.xyz/",
+            "name": "Romain Billot",
+            "alternateName": "Romain Billot — Développeur Full Stack",
+            "inLanguage": "fr-CA",
+            "publisher": { "@id": "https://romain.billot.xyz/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://romain.billot.xyz/#person",
+            "name": "Romain Billot",
+            "jobTitle": "Développeur Full Stack",
+            "url": "https://romain.billot.xyz/",
+            "image": "https://romain.billot.xyz/me_avatar.webp",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Montréal",
+              "addressRegion": "QC",
+              "addressCountry": "CA"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/romain-billot-54b515302/",
+              "https://github.com/romain-billot"
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
